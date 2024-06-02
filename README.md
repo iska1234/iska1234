@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sadhu Isaac Cavero Egusquiza Huilca</h1>
 <h3 align="center">A passionate frontend developer from Perú</h3>
 
-![banner para linkedin experto en marketing digital profesional negro y azul (1)](https://github.com/iska1234/iska1234/assets/119825666/c8fab361-82b2-49ab-aafc-4cf4a33bfb87)
+![snake gif](https://github.com/iska1234/iska1234/blob/output/github-contribution-grid-snake.gif)
 
 I'm bachelor in Software Engineering specialized in Full-Stack Web Development. Professional with good customer management and excellent communication; results-oriented, highly committed and collaborative. Currently looking for new professional challenges to develop effective solutions, streamlining company processes, turning them into quality software.
 
