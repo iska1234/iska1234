@@ -1,84 +1,86 @@
-<h1 align="center">Hi 👋, I'm Sadhu Isaac Cavero Egusquiza Huilca</h1>
-<h3 align="center">A passionate frontend developer from Perú</h3>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=iska1234&style=flat-square&color=0ea5e9" alt="Profile views" />
+</p>
 
-![snake gif](https://raw.githubusercontent.com/iska1234/iska1234/output/github-contribution-grid-snake-dark.svg)
+<h1 align="center">Sadhu Isaac Cavero Egusquiza Huilca</h1>
 
-I'm bachelor in Software Engineering specialized in Full-Stack Web Development. Professional with good customer management and excellent communication; results-oriented, highly committed and collaborative. Currently looking for new professional challenges to develop effective solutions, streamlining company processes, turning them into quality software.
-
-
-<h3 align="left">Find me Around the Web</h3>
-
-- 👨‍💻 All of my projects are available at: [https://cavero-portfolio.vercel.app](https://cavero-portfolio.vercel.app)
-
-- 📫 You can contact me in: **sadhuisaac1@gmail.com** or **https://www.linkedin.com/in/sadhu-cavero-egusquiza/**
-
-- 📄 Know about my experiences: [https://cavero-portfolio.vercel.app](https://cavero-portfolio.vercel.app)
-
-
-
-
-<h3 align="left">📊 GitHub Stats:</h3>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=iska1234&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-<h3 align="left">Tech Skills:</h3>
-<div class="flex">
-  <h4 align="left">Programming Languages:</h4>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=0EA5E9&center=true&vCenter=true&width=720&height=48&lines=Full-stack+Engineer;%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Cofounder+%40+SS+Digital+Labs;AI+Agents+%C2%B7+CRM+%C2%B7+Product+Systems;Per%C3%BA+%E2%86%92+LatAm">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=0EA5E9&center=true&vCenter=true&width=720&height=48&lines=Full-stack+Engineer;%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Cofounder+%40+SS+Digital+Labs;AI+Agents+%C2%B7+CRM+%C2%B7+Product+Systems;Per%C3%BA+%E2%86%92+LatAm" alt="Typing headline" />
   </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  <br>
-<h4 align="left">Frontend Development:</h4>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-  <a href="https://angular.io" target="_blank" rel="noreferrer">
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
-  </a>
-  <a href="https://redux.js.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
-  </a>
-  <br>
-  
-</div>
+</p>
 
-<h4 align="left">Backend Development:</h4>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-</a>
-  <a href="https://spring.io/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/>
-  </a>
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-  </a>
- <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
-  </a>
-  
-  <a href="https://heroku.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/>
-  </a>
+<p align="center">
+  <strong>ES</strong> — Full-stack · Cofundador de <a href="https://ss-digital-labs.com/">SS Digital Labs</a><br/>
+  <strong>EN</strong> — Full-stack · Cofounder at <a href="https://ss-digital-labs.com/">SS Digital Labs</a>
+</p>
 
+<p align="center">
+  <a href="https://ss-digital-labs.com/"><img src="https://img.shields.io/badge/SS_Digital_Labs-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="SS Digital Labs" /></a>
+  <a href="https://cavero-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://x.com/iska_112"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="mailto:sadhuisaac1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
+---
+
+### About / Sobre mí
+
+- Cofundador de **[SS Digital Labs](https://ss-digital-labs.com/)** — producto digital y sistemas operativos de negocio  
+  Cofounder of **SS Digital Labs** — digital product & business operating systems
+- Full-stack end-to-end: web, APIs, mobile, agentes AI / WhatsApp  
+  Full-stack end-to-end: web, APIs, mobile, AI / WhatsApp agents
+- Entrego CRM, ERP, helpdesk, portfolios y herramientas internas  
+  Shipping CRMs, ERPs, helpdesks, portfolios & internal ops tools
+- Enfoque actual: agentes AI, product systems y la marca SSDL  
+  Current focus: AI agents, product systems & the SSDL brand
+- Basado en **Perú** · ES / EN · LatAm remote-friendly
+
+---
+
+### Building / Construyendo
+
+| | |
+|---|---|
+| **SS Digital Labs** | [ss-digital-labs.com](https://ss-digital-labs.com/) — studio / lab |
+| **Portfolio** | [cavero-portfolio.vercel.app](https://cavero-portfolio.vercel.app/) — selected work |
+
+> Client & product repos stay private. Public showcases land when ready — not before.
+
+---
+
+### Stack
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+
+---
+
+### GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=iska1234&show_icons=true&theme=transparent&hide_border=true&title_color=0ea5e9&icon_color=0ea5e9&text_color=c9d1d9&bg_color=00000000" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iska1234&layout=compact&theme=transparent&hide_border=true&title_color=0ea5e9&text_color=c9d1d9&bg_color=00000000" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iska1234/iska1234/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph" />
+</p>
+
+---
+
+<p align="center">
+  <sub>Built with intent · SS Digital Labs</sub>
+</p>
