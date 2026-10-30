@@ -67,8 +67,8 @@ function ordinal(n) {
 function tipText(key, n) {
   const d = new Date(`${key}T12:00:00Z`);
   const label = `${monthFull[d.getUTCMonth()]} ${ordinal(d.getUTCDate())}`;
-  if (!n) return `No contributions on ${label}.`;
-  return `${n.toLocaleString("en-US")} contribution${n === 1 ? "" : "s"} on ${label}.`;
+  if (!n) return `No commits on ${label}.`;
+  return `${n.toLocaleString("en-US")} commit${n === 1 ? "" : "s"} on ${label}.`;
 }
 
 const days = [];
@@ -80,6 +80,17 @@ for (let t = start.getTime(); t <= end.getTime(); t += 864e5) {
 }
 
 const total = Object.values(counts).reduce((a, b) => a + b, 0);
+let githubCalendarTotal = 0;
+try {
+  githubCalendarTotal = Number(
+    execSync(
+      'gh api graphql -f query=query{viewer{contributionsCollection{contributionCalendar{totalContributions}}}} --jq .data.viewer.contributionsCollection.contributionCalendar.totalContributions',
+      { encoding: "utf8" }
+    ).trim()
+  );
+} catch {
+  githubCalendarTotal = 0;
+}
 const activeDays = Object.keys(counts).length;
 const width = padL + weeks * step + 16;
 const height = padT + 7 * step + 40;
@@ -132,13 +143,13 @@ const legend = [0, 1, 2, 3, 4]
 
 const totalLabel = total.toLocaleString("en-US");
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img">
-  <title>${totalLabel} contributions in the last year</title>
+  <title>${totalLabel} commits authored in the last year</title>
   <rect width="${width}" height="${height}" rx="6" fill="#0d1117" stroke="#30363d"/>
-  <text x="12" y="18" fill="#e6edf3" font-family="${font}" font-size="14" font-weight="600">${totalLabel} contributions in the last year</text>
+  <text x="12" y="18" fill="#e6edf3" font-family="${font}" font-size="14" font-weight="600">${totalLabel} commits authored in the last year</text>
   ${monthLabels.join("\n")}
   ${dowLabels}
   ${rects}
-  <text x="12" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">Private + public · custom count</text>
+  <text x="12" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">API commits · GitHub calendar shows ${githubCalendarTotal}</text>
   <text x="${width - 148}" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">Less</text>
   ${legend}
   <text x="${width - 28}" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">More</text>
@@ -173,7 +184,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${totalLabel} contributions in the last year</title>
+<title>${totalLabel} commits authored in the last year</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -252,7 +263,7 @@ const html = `<!doctype html>
     <section class="card" aria-label="Contribution graph">
       <div class="head">
         <h1><b>${totalLabel}</b> contributions in the last year</h1>
-        <span class="muted">custom · private included</span>
+        <span class="muted">raw commits · GitHub calendar: ${githubCalendarTotal}</span>
       </div>
       <div class="grid" id="grid">
         <span></span>
@@ -279,7 +290,7 @@ const html = `<!doctype html>
     </aside>
   </div>
   <p class="note">
-    Clone of GitHub’s graph UI (hover tooltip). The official green graph on your profile
+    Numbers = commits via API (author=iska1234), NOT GitHub’s contribution score. Official profile calendar currently
     (below the README) only fills after you verify commit email + enable private contributions —
     that one has native tooltips with no extra page.
   </p>
