@@ -101,11 +101,7 @@ These cards are **self-hosted SVGs** from your real push history (69 private / 1
   <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/iska1234/iska1234/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution animation" />
-</p>
-
-<p align="center"><sub><code>signals: shipping_year · top_langs · streak · snake</code></sub></p>
+<p align="center"><sub><code>signals: shipping_year · top_langs · streak</code> · snake off until contrib email verified</sub></p>
 
 <details>
 <summary><code>$ fix contrib graph</code> — make GitHub heatmap / snake fill up</summary>
