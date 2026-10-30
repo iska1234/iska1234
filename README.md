@@ -86,8 +86,12 @@
 
 ## `$ git log --since="1 year ago"` · Activity
 
-Most shipping is in **private** repos — GitHub’s public heatmap stays thin.  
-These cards are **self-hosted SVGs** from your real push history (69 private / 1 public touched this year).
+Custom heatmap — **commits reales** (public + private). No depende del calendario vacío de GitHub.  
+Courier animado (SMIL) recorre tus días activos.
+
+<p align="center">
+  <img src="assets/contrib-year.svg" width="900" alt="Custom contribution grid including private commits" />
+</p>
 
 <p align="center">
   <img src="assets/shipping-year.svg" width="620" alt="Shipping activity last 12 months including private repos" />
@@ -101,18 +105,7 @@ These cards are **self-hosted SVGs** from your real push history (69 private / 1
   <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9" alt="GitHub streak" />
 </p>
 
-<p align="center"><sub><code>signals: shipping_year · top_langs · streak</code> · snake off until contrib email verified</sub></p>
-
-<details>
-<summary><code>$ fix contrib graph</code> — make GitHub heatmap / snake fill up</summary>
-
-1. [Add & verify](https://github.com/settings/emails) commit email `sadhuisaac1@gmail.com` (must match `git config user.email`).
-2. Profile → **Include private contributions on my profile**: https://github.com/settings/profile  
-3. Optional: also use `noreply` — `119825666+iska1234@users.noreply.github.com`
-
-Until email is verified on the account, private pushes **do not** paint the green/blue squares (even though repos are active).
-
-</details>
+<p align="center"><sub><code>signals: contrib_year · shipping_year · top_langs · streak</code> · regenerate: <code>node scripts/gen-contrib-grid.mjs</code></sub></p>
 
 ---
 
