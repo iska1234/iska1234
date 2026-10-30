@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <a href="https://ss-digital-labs.com/">
   <picture>
@@ -90,8 +90,11 @@ Custom heatmap — **commits reales** (public + private). No depende del calenda
 Courier animado (SMIL) recorre tus días activos.
 
 <p align="center">
-  <img src="assets/contrib-year.svg" width="900" alt="Custom contribution grid including private commits" />
+  <a href="https://iska1234.github.io/iska1234/contrib.html" title="Open interactive heatmap with commit tooltips">
+    <img src="assets/contrib-year.svg" width="900" alt="Custom contribution grid — click for interactive day tooltips" />
+  </a>
 </p>
+<p align="center"><sub>Hover tooltips: <a href="https://iska1234.github.io/iska1234/contrib.html">interactive grid</a> (README &lt;img&gt; cannot hover SVG cells).</sub></p>
 
 <p align="center">
   <img src="assets/shipping-year.svg" width="620" alt="Shipping activity last 12 months including private repos" />
@@ -133,3 +136,4 @@ Courier animado (SMIL) recorre tus días activos.
 <div align="center">
 <sub>Built with intent · cafe · shipping from Perú · <a href="https://ss-digital-labs.com/">@ss-digital-labs</a></sub>
 </div>
+
