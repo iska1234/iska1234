@@ -19,13 +19,14 @@ const start = new Date(end);
 start.setUTCDate(start.getUTCDate() - 364);
 while (start.getUTCDay() !== 0) start.setUTCDate(start.getUTCDate() - 1);
 
-const levels = (n) => (!n ? 0 : n === 1 ? 1 : n <= 3 ? 2 : n <= 6 ? 3 : 4);
-const palette = ["#161b22", "#0e3a5a", "#0369a1", "#0ea5e9", "#7dd3fc"];
-const cell = 11;
+// GitHub dark contribution greens
+const palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
+const levels = (n) => (!n ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 12 ? 3 : 4);
+const cell = 10;
 const gap = 3;
 const step = cell + gap;
-const padL = 36;
-const padT = 48;
+const padL = 28;
+const padT = 40;
 const week0 = start.getTime();
 const weeks = Math.ceil((end - start) / 864e5 / 7) + 1;
 const monthNames = [
@@ -42,19 +43,33 @@ const monthNames = [
   "Nov",
   "Dec",
 ];
+const monthFull = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
-const fmt = (key, n) => {
+function ordinal(n) {
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+function tipText(key, n) {
   const d = new Date(`${key}T12:00:00Z`);
-  const label = d.toLocaleDateString("en-US", {
-    weekday: "short",
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC",
-  });
-  if (!n) return `No commits on ${label}`;
-  return `${n} commit${n === 1 ? "" : "s"} on ${label}`;
-};
+  const label = `${monthFull[d.getUTCMonth()]} ${ordinal(d.getUTCDate())}`;
+  if (!n) return `No contributions on ${label}.`;
+  return `${n.toLocaleString("en-US")} contribution${n === 1 ? "" : "s"} on ${label}.`;
+}
 
 const days = [];
 for (let t = start.getTime(); t <= end.getTime(); t += 864e5) {
@@ -64,20 +79,25 @@ for (let t = start.getTime(); t <= end.getTime(); t += 864e5) {
   days.push({ key, n, level: levels(n), dow: d.getUTCDay(), time: t });
 }
 
+const total = Object.values(counts).reduce((a, b) => a + b, 0);
+const activeDays = Object.keys(counts).length;
+const width = padL + weeks * step + 16;
+const height = padT + 7 * step + 40;
+const font =
+  "-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif";
+
 let rects = "";
-const activeCells = [];
 const htmlCells = [];
 for (const day of days) {
   const week = Math.floor((day.time - week0) / (7 * 864e5));
   const x = padL + week * step;
   const y = padT + day.dow * step;
-  const tip = fmt(day.key, day.n)
+  const tip = tipText(day.key, day.n)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/"/g, "&quot;");
   rects += `<rect class="day" x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2" fill="${palette[day.level]}" data-date="${day.key}" data-count="${day.n}"><title>${tip}</title></rect>\n`;
-  if (day.n > 0) activeCells.push({ x: x + cell / 2, y: y + cell / 2 });
-  htmlCells.push({ ...day, week, tip: fmt(day.key, day.n) });
+  htmlCells.push({ ...day, week, tip: tipText(day.key, day.n) });
 }
 
 const monthLabels = [];
@@ -88,7 +108,7 @@ for (const day of days) {
   lastM = d.getUTCMonth();
   const week = Math.floor((day.time - week0) / (7 * 864e5));
   monthLabels.push(
-    `<text x="${padL + week * step}" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">${monthNames[d.getUTCMonth()]}</text>`
+    `<text x="${padL + week * step}" y="28" fill="#7d8590" font-family="${font}" font-size="12">${monthNames[d.getUTCMonth()]}</text>`
   );
 }
 
@@ -99,66 +119,32 @@ const dowLabels = [
 ]
   .map(
     ([dow, label]) =>
-      `<text x="8" y="${padT + dow * step + 9}" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">${label}</text>`
+      `<text x="0" y="${padT + dow * step + 9}" fill="#7d8590" font-family="${font}" font-size="10">${label}</text>`
   )
   .join("\n");
-
-const total = Object.values(counts).reduce((a, b) => a + b, 0);
-const activeDays = Object.keys(counts).length;
-const width = padL + weeks * step + 24;
-const height = padT + 7 * step + 56;
-
-let anim = "";
-if (activeCells.length > 1) {
-  const dur = Math.min(24, Math.max(8, activeCells.length * 0.15));
-  const path = `M${activeCells[0].x},${activeCells[0].y} ${activeCells
-    .slice(1)
-    .map((c) => `L${c.x},${c.y}`)
-    .join(" ")}`;
-  anim = `
-  <circle r="3.5" fill="#f0f9ff" opacity="0.95"><animateMotion dur="${dur}s" repeatCount="indefinite" path="${path}"/></circle>
-  <circle r="8" fill="#0ea5e9" opacity="0.25"><animateMotion dur="${dur}s" repeatCount="indefinite" path="${path}"/></circle>`;
-}
 
 const legend = [0, 1, 2, 3, 4]
   .map(
     (lv, i) =>
-      `<rect x="${width - 140 + i * 14}" y="${height - 28}" width="11" height="11" rx="2" fill="${palette[lv]}"/>`
+      `<rect x="${width - 118 + i * 13}" y="${height - 22}" width="10" height="10" rx="2" fill="${palette[lv]}"/>`
   )
   .join("");
 
+const totalLabel = total.toLocaleString("en-US");
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img">
-  <title>iska1234 commits · ${total} in last year (public + private)</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <style><![CDATA[
-      .day { cursor: help; }
-      .day:hover { stroke: #f0f9ff; stroke-width: 1.5; }
-    ]]></style>
-  </defs>
-  <rect width="${width}" height="${height}" rx="16" fill="url(#bg)" stroke="#1e293b"/>
-  <text x="16" y="22" fill="#e2e8f0" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700">Contribution grid · custom</text>
-  <text x="16" y="${height - 18}" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">${total} commits · ${activeDays} active days · private included · hover a cell</text>
+  <title>${totalLabel} contributions in the last year</title>
+  <rect width="${width}" height="${height}" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="12" y="18" fill="#e6edf3" font-family="${font}" font-size="14" font-weight="600">${totalLabel} contributions in the last year</text>
   ${monthLabels.join("\n")}
   ${dowLabels}
   ${rects}
-  ${anim}
-  <text x="${width - 168}" y="${height - 18}" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Less</text>
+  <text x="12" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">Private + public · custom count</text>
+  <text x="${width - 148}" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">Less</text>
   ${legend}
-  <text x="${width - 28}" y="${height - 18}" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">More</text>
+  <text x="${width - 28}" y="${height - 12}" fill="#7d8590" font-family="${font}" font-size="11">More</text>
 </svg>`;
 
 fs.writeFileSync(path.join(assets, "contrib-year.svg"), svg);
-
-const cellsHtml = htmlCells
-  .map((d) => {
-    const tip = d.tip.replace(/"/g, "&quot;");
-    return `<button class="c l${d.level}" style="grid-column:${d.week + 2};grid-row:${d.dow + 2}" data-tip="${tip}" aria-label="${tip}"></button>`;
-  })
-  .join("\n");
 
 const monthHtml = [];
 lastM = -1;
@@ -172,106 +158,131 @@ for (const day of days) {
   );
 }
 
+const cellsHtml = htmlCells
+  .map((d) => {
+    const tip = d.tip.replace(/"/g, "&quot;");
+    return `<button type="button" class="c l${d.level}" style="grid-column:${d.week + 2};grid-row:${d.dow + 2}" data-tip="${tip}" aria-label="${tip}"></button>`;
+  })
+  .join("\n");
+
+const year = end.getUTCFullYear();
+const years = [year, year - 1, year - 2, year - 3, year - 4];
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>iska1234 · contribution grid</title>
+<title>${totalLabel} contributions in the last year</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
   body {
-    margin: 0; min-height: 100vh; display: grid; place-items: center;
-    background: #020617; color: #e2e8f0;
-    font-family: ui-sans-serif, system-ui, Segoe UI, sans-serif; padding: 24px;
+    margin: 0; min-height: 100vh; background: #010409; color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 32px 16px; display: grid; place-items: start center;
+  }
+  .wrap {
+    width: min(980px, 100%);
+    display: grid; grid-template-columns: 1fr 96px; gap: 16px; align-items: start;
+  }
+  @media (max-width: 720px) {
+    .wrap { grid-template-columns: 1fr; }
+    .years { flex-direction: row; flex-wrap: wrap; }
   }
   .card {
-    background: linear-gradient(135deg, #0b1220, #111827);
-    border: 1px solid #1e293b; border-radius: 16px; padding: 20px;
-    max-width: 920px; width: 100%;
+    background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 16px;
   }
-  h1 { margin: 0 0 4px; font-size: 18px; }
-  .sub {
-    margin: 0 0 16px; color: #64748b;
-    font: 12px/1.4 ui-monospace, Menlo, Consolas, monospace;
+  .head {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 12px; margin-bottom: 12px; flex-wrap: wrap;
   }
+  .head h1 { margin: 0; font-size: 14px; font-weight: 400; color: #e6edf3; }
+  .head h1 b { font-weight: 600; }
+  .muted { color: #7d8590; font-size: 12px; }
   .grid {
     display: grid;
-    grid-template-columns: 28px repeat(${weeks}, 12px);
-    grid-template-rows: 18px repeat(7, 12px);
-    gap: 3px; width: max-content; max-width: 100%;
-    overflow: auto; padding-bottom: 8px;
+    grid-template-columns: 28px repeat(${weeks}, 11px);
+    grid-template-rows: 16px repeat(7, 11px);
+    gap: 3px; width: max-content; max-width: 100%; overflow: auto;
   }
-  .m {
-    font: 10px/1 ui-monospace, Menlo, Consolas, monospace;
-    color: #64748b; align-self: end;
-  }
-  .d {
-    font: 10px/12px ui-monospace, Menlo, Consolas, monospace;
-    color: #475569;
-  }
+  .m { font-size: 12px; color: #7d8590; align-self: end; line-height: 1; }
+  .d { font-size: 9px; color: #7d8590; line-height: 11px; }
   .c {
-    width: 11px; height: 11px; border: 0; padding: 0;
-    border-radius: 2px; cursor: pointer; appearance: none;
+    width: 10px; height: 10px; border: 0; padding: 0; border-radius: 2px;
+    cursor: pointer; appearance: none; background: #161b22;
   }
-  .c:hover, .c:focus-visible {
-    outline: 1.5px solid #f0f9ff; outline-offset: 1px; z-index: 1;
-  }
+  .c:hover, .c:focus-visible { outline: 1px solid #e6edf3; outline-offset: 1px; }
   .l0 { background: #161b22; }
-  .l1 { background: #0e3a5a; }
-  .l2 { background: #0369a1; }
-  .l3 { background: #0ea5e9; }
-  .l4 { background: #7dd3fc; }
+  .l1 { background: #0e4429; }
+  .l2 { background: #006d32; }
+  .l3 { background: #26a641; }
+  .l4 { background: #39d353; }
   .foot {
-    display: flex; justify-content: space-between; gap: 12px;
-    align-items: center; margin-top: 14px; color: #64748b;
-    font: 11px/1.4 ui-monospace, Menlo, Consolas, monospace; flex-wrap: wrap;
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 12px; gap: 12px; flex-wrap: wrap;
   }
-  .legend { display: flex; align-items: center; gap: 4px; }
-  .legend i {
-    width: 11px; height: 11px; border-radius: 2px; display: inline-block;
+  .legend { display: flex; align-items: center; gap: 3px; color: #7d8590; font-size: 11px; }
+  .legend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .years { display: flex; flex-direction: column; gap: 6px; }
+  .years button {
+    border: 0; background: transparent; color: #e6edf3; text-align: left;
+    padding: 8px 12px; border-radius: 6px; font: 12px/1 inherit; cursor: default;
   }
+  .years button.on { background: #1f6feb; font-weight: 600; }
   #tip {
-    position: fixed; pointer-events: none; z-index: 50;
+    position: fixed; z-index: 50; pointer-events: none;
     transform: translate(-50%, calc(-100% - 10px));
-    background: #0f172a; color: #f8fafc; border: 1px solid #334155;
-    border-radius: 8px; padding: 8px 10px;
-    font: 12px/1.35 ui-monospace, Menlo, Consolas, monospace;
-    box-shadow: 0 10px 30px rgba(0,0,0,.45);
-    opacity: 0; transition: opacity .08s ease; white-space: nowrap;
+    background: #161b22; color: #e6edf3; border: 1px solid #30363d;
+    border-radius: 6px; padding: 8px 10px; font-size: 12px; line-height: 1.3;
+    box-shadow: 0 8px 24px rgba(1,4,9,.45); opacity: 0; white-space: nowrap;
   }
   #tip.on { opacity: 1; }
   #tip:after {
     content: ""; position: absolute; left: 50%; bottom: -6px;
     transform: translateX(-50%);
-    border: 6px solid transparent; border-top-color: #0f172a;
+    border: 6px solid transparent; border-top-color: #161b22;
   }
-  a { color: #7dd3fc; }
+  .note { margin-top: 14px; color: #7d8590; font-size: 12px; max-width: 980px; }
+  .note a { color: #2f81f7; }
 </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Contribution grid · interactive</h1>
-    <p class="sub">${total} commits · ${activeDays} active days · private included · hover any day</p>
-    <div class="grid" id="grid">
-      <span></span>
-      ${monthHtml.join("\n")}
-      <span class="d" style="grid-row:3">Mon</span>
-      <span class="d" style="grid-row:5">Wed</span>
-      <span class="d" style="grid-row:7">Fri</span>
-      ${cellsHtml}
-    </div>
-    <div class="foot">
-      <span>Generated ${data.generatedAt || ""}</span>
-      <span class="legend">Less
-        <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>
-        More</span>
-    </div>
-    <p class="sub" style="margin-top:12px">
-      GitHub README embeds SVG as &lt;img&gt; (no cell hover). This page = real tooltips.
-    </p>
+  <div class="wrap">
+    <section class="card" aria-label="Contribution graph">
+      <div class="head">
+        <h1><b>${totalLabel}</b> contributions in the last year</h1>
+        <span class="muted">custom · private included</span>
+      </div>
+      <div class="grid" id="grid">
+        <span></span>
+        ${monthHtml.join("\n")}
+        <span class="d" style="grid-row:3">Mon</span>
+        <span class="d" style="grid-row:5">Wed</span>
+        <span class="d" style="grid-row:7">Fri</span>
+        ${cellsHtml}
+      </div>
+      <div class="foot">
+        <span class="muted">Learn how we count contributions</span>
+        <span class="legend">Less
+          <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>
+          More</span>
+      </div>
+    </section>
+    <aside class="years" aria-label="Year">
+      ${years
+        .map(
+          (y, i) =>
+            `<button type="button" class="${i === 0 ? "on" : ""}"${i === 0 ? "" : ' disabled title="Only current year data generated"'}>${y}</button>`
+        )
+        .join("\n")}
+    </aside>
   </div>
+  <p class="note">
+    Clone of GitHub’s graph UI (hover tooltip). The official green graph on your profile
+    (below the README) only fills after you verify commit email + enable private contributions —
+    that one has native tooltips with no extra page.
+  </p>
   <div id="tip" role="tooltip"></div>
   <script>
     const tip = document.getElementById("tip");
@@ -304,7 +315,14 @@ const html = `<!doctype html>
 fs.writeFileSync(path.join(docs, "contrib.html"), html);
 fs.writeFileSync(
   path.join(docs, "index.html"),
-  `<!doctype html><meta http-equiv="refresh" content="0; url=contrib.html"><a href="contrib.html">contrib</a>`
+  `<!doctype html><meta http-equiv="refresh" content="0;url=contrib.html"><a href="contrib.html">contrib</a>`
 );
 
-console.log(JSON.stringify({ total, activeDays, weeks, ok: true }));
+console.log(
+  JSON.stringify({
+    total,
+    activeDays,
+    weeks,
+    tipSample: tipText("2026-04-10", 92),
+  })
+);

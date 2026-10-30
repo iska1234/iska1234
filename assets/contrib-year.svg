@@ -1,408 +1,395 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="816" height="202" viewBox="0 0 816 202" role="img">
-  <title>iska1234 commits · 3140 in last year (public + private)</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <style><![CDATA[
-      .day { cursor: help; }
-      .day:hover { stroke: #f0f9ff; stroke-width: 1.5; }
-    ]]></style>
-  </defs>
-  <rect width="816" height="202" rx="16" fill="url(#bg)" stroke="#1e293b"/>
-  <text x="16" y="22" fill="#e2e8f0" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700">Contribution grid · custom</text>
-  <text x="16" y="184" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">3140 commits · 243 active days · private included · hover a cell</text>
-  <text x="36" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Nov</text>
-<text x="106" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Dec</text>
-<text x="162" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Jan</text>
-<text x="232" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Feb</text>
-<text x="288" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Mar</text>
-<text x="344" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Apr</text>
-<text x="400" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">May</text>
-<text x="470" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Jun</text>
-<text x="526" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Jul</text>
-<text x="582" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Aug</text>
-<text x="652" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Sep</text>
-<text x="708" y="36" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Oct</text>
-  <text x="8" y="71" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Mon</text>
-<text x="8" y="99" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Wed</text>
-<text x="8" y="127" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Fri</text>
-  <rect class="day" x="36" y="48" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-10-26" data-count="1"><title>1 commit on Sun, Oct 26, 2025</title></rect>
-<rect class="day" x="36" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-10-27" data-count="3"><title>3 commits on Mon, Oct 27, 2025</title></rect>
-<rect class="day" x="36" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2025-10-28" data-count="0"><title>No commits on Tue, Oct 28, 2025</title></rect>
-<rect class="day" x="36" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-10-29" data-count="26"><title>26 commits on Wed, Oct 29, 2025</title></rect>
-<rect class="day" x="36" y="104" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-10-30" data-count="1"><title>1 commit on Thu, Oct 30, 2025</title></rect>
-<rect class="day" x="36" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2025-10-31" data-count="0"><title>No commits on Fri, Oct 31, 2025</title></rect>
-<rect class="day" x="36" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-01" data-count="0"><title>No commits on Sat, Nov 1, 2025</title></rect>
-<rect class="day" x="50" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-11-02" data-count="2"><title>2 commits on Sun, Nov 2, 2025</title></rect>
-<rect class="day" x="50" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-03" data-count="0"><title>No commits on Mon, Nov 3, 2025</title></rect>
-<rect class="day" x="50" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-11-04" data-count="2"><title>2 commits on Tue, Nov 4, 2025</title></rect>
-<rect class="day" x="50" y="90" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-11-05" data-count="1"><title>1 commit on Wed, Nov 5, 2025</title></rect>
-<rect class="day" x="50" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-06" data-count="0"><title>No commits on Thu, Nov 6, 2025</title></rect>
-<rect class="day" x="50" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-07" data-count="0"><title>No commits on Fri, Nov 7, 2025</title></rect>
-<rect class="day" x="50" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-11-08" data-count="9"><title>9 commits on Sat, Nov 8, 2025</title></rect>
-<rect class="day" x="64" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-11-09" data-count="3"><title>3 commits on Sun, Nov 9, 2025</title></rect>
-<rect class="day" x="64" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-10" data-count="0"><title>No commits on Mon, Nov 10, 2025</title></rect>
-<rect class="day" x="64" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-11" data-count="0"><title>No commits on Tue, Nov 11, 2025</title></rect>
-<rect class="day" x="64" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-12" data-count="0"><title>No commits on Wed, Nov 12, 2025</title></rect>
-<rect class="day" x="64" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-13" data-count="0"><title>No commits on Thu, Nov 13, 2025</title></rect>
-<rect class="day" x="64" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-14" data-count="0"><title>No commits on Fri, Nov 14, 2025</title></rect>
-<rect class="day" x="64" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-15" data-count="0"><title>No commits on Sat, Nov 15, 2025</title></rect>
-<rect class="day" x="78" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-16" data-count="0"><title>No commits on Sun, Nov 16, 2025</title></rect>
-<rect class="day" x="78" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-17" data-count="0"><title>No commits on Mon, Nov 17, 2025</title></rect>
-<rect class="day" x="78" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-18" data-count="0"><title>No commits on Tue, Nov 18, 2025</title></rect>
-<rect class="day" x="78" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-19" data-count="0"><title>No commits on Wed, Nov 19, 2025</title></rect>
-<rect class="day" x="78" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-20" data-count="0"><title>No commits on Thu, Nov 20, 2025</title></rect>
-<rect class="day" x="78" y="118" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-11-21" data-count="4"><title>4 commits on Fri, Nov 21, 2025</title></rect>
-<rect class="day" x="78" y="132" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-11-22" data-count="1"><title>1 commit on Sat, Nov 22, 2025</title></rect>
-<rect class="day" x="92" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-11-23" data-count="3"><title>3 commits on Sun, Nov 23, 2025</title></rect>
-<rect class="day" x="92" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-24" data-count="0"><title>No commits on Mon, Nov 24, 2025</title></rect>
-<rect class="day" x="92" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-11-25" data-count="21"><title>21 commits on Tue, Nov 25, 2025</title></rect>
-<rect class="day" x="92" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-26" data-count="0"><title>No commits on Wed, Nov 26, 2025</title></rect>
-<rect class="day" x="92" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2025-11-27" data-count="0"><title>No commits on Thu, Nov 27, 2025</title></rect>
-<rect class="day" x="92" y="118" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-11-28" data-count="4"><title>4 commits on Fri, Nov 28, 2025</title></rect>
-<rect class="day" x="92" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-11-29" data-count="9"><title>9 commits on Sat, Nov 29, 2025</title></rect>
-<rect class="day" x="106" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-11-30" data-count="5"><title>5 commits on Sun, Nov 30, 2025</title></rect>
-<rect class="day" x="106" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-01" data-count="0"><title>No commits on Mon, Dec 1, 2025</title></rect>
-<rect class="day" x="106" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-02" data-count="3"><title>3 commits on Tue, Dec 2, 2025</title></rect>
-<rect class="day" x="106" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-03" data-count="0"><title>No commits on Wed, Dec 3, 2025</title></rect>
-<rect class="day" x="106" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-04" data-count="5"><title>5 commits on Thu, Dec 4, 2025</title></rect>
-<rect class="day" x="106" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-12-05" data-count="7"><title>7 commits on Fri, Dec 5, 2025</title></rect>
-<rect class="day" x="106" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-12-06" data-count="9"><title>9 commits on Sat, Dec 6, 2025</title></rect>
-<rect class="day" x="120" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-07" data-count="5"><title>5 commits on Sun, Dec 7, 2025</title></rect>
-<rect class="day" x="120" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-08" data-count="5"><title>5 commits on Mon, Dec 8, 2025</title></rect>
-<rect class="day" x="120" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-09" data-count="2"><title>2 commits on Tue, Dec 9, 2025</title></rect>
-<rect class="day" x="120" y="90" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-10" data-count="2"><title>2 commits on Wed, Dec 10, 2025</title></rect>
-<rect class="day" x="120" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-11" data-count="0"><title>No commits on Thu, Dec 11, 2025</title></rect>
-<rect class="day" x="120" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-12" data-count="2"><title>2 commits on Fri, Dec 12, 2025</title></rect>
-<rect class="day" x="120" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-13" data-count="0"><title>No commits on Sat, Dec 13, 2025</title></rect>
-<rect class="day" x="134" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-14" data-count="0"><title>No commits on Sun, Dec 14, 2025</title></rect>
-<rect class="day" x="134" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-15" data-count="0"><title>No commits on Mon, Dec 15, 2025</title></rect>
-<rect class="day" x="134" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-16" data-count="0"><title>No commits on Tue, Dec 16, 2025</title></rect>
-<rect class="day" x="134" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-17" data-count="0"><title>No commits on Wed, Dec 17, 2025</title></rect>
-<rect class="day" x="134" y="104" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-18" data-count="2"><title>2 commits on Thu, Dec 18, 2025</title></rect>
-<rect class="day" x="134" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-12-19" data-count="13"><title>13 commits on Fri, Dec 19, 2025</title></rect>
-<rect class="day" x="134" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-20" data-count="0"><title>No commits on Sat, Dec 20, 2025</title></rect>
-<rect class="day" x="148" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2025-12-21" data-count="3"><title>3 commits on Sun, Dec 21, 2025</title></rect>
-<rect class="day" x="148" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-22" data-count="6"><title>6 commits on Mon, Dec 22, 2025</title></rect>
-<rect class="day" x="148" y="76" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-12-23" data-count="1"><title>1 commit on Tue, Dec 23, 2025</title></rect>
-<rect class="day" x="148" y="90" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-12-24" data-count="1"><title>1 commit on Wed, Dec 24, 2025</title></rect>
-<rect class="day" x="148" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-25" data-count="4"><title>4 commits on Thu, Dec 25, 2025</title></rect>
-<rect class="day" x="148" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-26" data-count="0"><title>No commits on Fri, Dec 26, 2025</title></rect>
-<rect class="day" x="148" y="132" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2025-12-27" data-count="1"><title>1 commit on Sat, Dec 27, 2025</title></rect>
-<rect class="day" x="162" y="48" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2025-12-28" data-count="7"><title>7 commits on Sun, Dec 28, 2025</title></rect>
-<rect class="day" x="162" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2025-12-29" data-count="5"><title>5 commits on Mon, Dec 29, 2025</title></rect>
-<rect class="day" x="162" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-30" data-count="0"><title>No commits on Tue, Dec 30, 2025</title></rect>
-<rect class="day" x="162" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2025-12-31" data-count="0"><title>No commits on Wed, Dec 31, 2025</title></rect>
-<rect class="day" x="162" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-01" data-count="0"><title>No commits on Thu, Jan 1, 2026</title></rect>
-<rect class="day" x="162" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-02" data-count="0"><title>No commits on Fri, Jan 2, 2026</title></rect>
-<rect class="day" x="162" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-03" data-count="0"><title>No commits on Sat, Jan 3, 2026</title></rect>
-<rect class="day" x="176" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-04" data-count="0"><title>No commits on Sun, Jan 4, 2026</title></rect>
-<rect class="day" x="176" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-05" data-count="0"><title>No commits on Mon, Jan 5, 2026</title></rect>
-<rect class="day" x="176" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-06" data-count="0"><title>No commits on Tue, Jan 6, 2026</title></rect>
-<rect class="day" x="176" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-07" data-count="0"><title>No commits on Wed, Jan 7, 2026</title></rect>
-<rect class="day" x="176" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-08" data-count="0"><title>No commits on Thu, Jan 8, 2026</title></rect>
-<rect class="day" x="176" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-09" data-count="0"><title>No commits on Fri, Jan 9, 2026</title></rect>
-<rect class="day" x="176" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-10" data-count="0"><title>No commits on Sat, Jan 10, 2026</title></rect>
-<rect class="day" x="190" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-11" data-count="0"><title>No commits on Sun, Jan 11, 2026</title></rect>
-<rect class="day" x="190" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-12" data-count="0"><title>No commits on Mon, Jan 12, 2026</title></rect>
-<rect class="day" x="190" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-13" data-count="0"><title>No commits on Tue, Jan 13, 2026</title></rect>
-<rect class="day" x="190" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-14" data-count="0"><title>No commits on Wed, Jan 14, 2026</title></rect>
-<rect class="day" x="190" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-15" data-count="0"><title>No commits on Thu, Jan 15, 2026</title></rect>
-<rect class="day" x="190" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-16" data-count="0"><title>No commits on Fri, Jan 16, 2026</title></rect>
-<rect class="day" x="190" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-17" data-count="0"><title>No commits on Sat, Jan 17, 2026</title></rect>
-<rect class="day" x="204" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-18" data-count="0"><title>No commits on Sun, Jan 18, 2026</title></rect>
-<rect class="day" x="204" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-19" data-count="0"><title>No commits on Mon, Jan 19, 2026</title></rect>
-<rect class="day" x="204" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-20" data-count="0"><title>No commits on Tue, Jan 20, 2026</title></rect>
-<rect class="day" x="204" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-21" data-count="0"><title>No commits on Wed, Jan 21, 2026</title></rect>
-<rect class="day" x="204" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-22" data-count="0"><title>No commits on Thu, Jan 22, 2026</title></rect>
-<rect class="day" x="204" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-23" data-count="0"><title>No commits on Fri, Jan 23, 2026</title></rect>
-<rect class="day" x="204" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-24" data-count="0"><title>No commits on Sat, Jan 24, 2026</title></rect>
-<rect class="day" x="218" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-25" data-count="0"><title>No commits on Sun, Jan 25, 2026</title></rect>
-<rect class="day" x="218" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-26" data-count="0"><title>No commits on Mon, Jan 26, 2026</title></rect>
-<rect class="day" x="218" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-27" data-count="0"><title>No commits on Tue, Jan 27, 2026</title></rect>
-<rect class="day" x="218" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-28" data-count="0"><title>No commits on Wed, Jan 28, 2026</title></rect>
-<rect class="day" x="218" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-29" data-count="0"><title>No commits on Thu, Jan 29, 2026</title></rect>
-<rect class="day" x="218" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-30" data-count="0"><title>No commits on Fri, Jan 30, 2026</title></rect>
-<rect class="day" x="218" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-01-31" data-count="0"><title>No commits on Sat, Jan 31, 2026</title></rect>
-<rect class="day" x="232" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-01" data-count="0"><title>No commits on Sun, Feb 1, 2026</title></rect>
-<rect class="day" x="232" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-02" data-count="0"><title>No commits on Mon, Feb 2, 2026</title></rect>
-<rect class="day" x="232" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-03" data-count="0"><title>No commits on Tue, Feb 3, 2026</title></rect>
-<rect class="day" x="232" y="90" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-04" data-count="2"><title>2 commits on Wed, Feb 4, 2026</title></rect>
-<rect class="day" x="232" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-05" data-count="5"><title>5 commits on Thu, Feb 5, 2026</title></rect>
-<rect class="day" x="232" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-06" data-count="0"><title>No commits on Fri, Feb 6, 2026</title></rect>
-<rect class="day" x="232" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-07" data-count="0"><title>No commits on Sat, Feb 7, 2026</title></rect>
-<rect class="day" x="246" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-08" data-count="3"><title>3 commits on Sun, Feb 8, 2026</title></rect>
-<rect class="day" x="246" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-09" data-count="2"><title>2 commits on Mon, Feb 9, 2026</title></rect>
-<rect class="day" x="246" y="76" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-10" data-count="4"><title>4 commits on Tue, Feb 10, 2026</title></rect>
-<rect class="day" x="246" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-02-11" data-count="9"><title>9 commits on Wed, Feb 11, 2026</title></rect>
-<rect class="day" x="246" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-12" data-count="6"><title>6 commits on Thu, Feb 12, 2026</title></rect>
-<rect class="day" x="246" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-13" data-count="2"><title>2 commits on Fri, Feb 13, 2026</title></rect>
-<rect class="day" x="246" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-14" data-count="5"><title>5 commits on Sat, Feb 14, 2026</title></rect>
-<rect class="day" x="260" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-15" data-count="3"><title>3 commits on Sun, Feb 15, 2026</title></rect>
-<rect class="day" x="260" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-16" data-count="3"><title>3 commits on Mon, Feb 16, 2026</title></rect>
-<rect class="day" x="260" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-02-17" data-count="8"><title>8 commits on Tue, Feb 17, 2026</title></rect>
-<rect class="day" x="260" y="90" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-18" data-count="2"><title>2 commits on Wed, Feb 18, 2026</title></rect>
-<rect class="day" x="260" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-19" data-count="6"><title>6 commits on Thu, Feb 19, 2026</title></rect>
-<rect class="day" x="260" y="118" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-20" data-count="4"><title>4 commits on Fri, Feb 20, 2026</title></rect>
-<rect class="day" x="260" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-02-21" data-count="7"><title>7 commits on Sat, Feb 21, 2026</title></rect>
-<rect class="day" x="274" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-22" data-count="0"><title>No commits on Sun, Feb 22, 2026</title></rect>
-<rect class="day" x="274" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-23" data-count="3"><title>3 commits on Mon, Feb 23, 2026</title></rect>
-<rect class="day" x="274" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-02-24" data-count="10"><title>10 commits on Tue, Feb 24, 2026</title></rect>
-<rect class="day" x="274" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-02-25" data-count="8"><title>8 commits on Wed, Feb 25, 2026</title></rect>
-<rect class="day" x="274" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-02-26" data-count="6"><title>6 commits on Thu, Feb 26, 2026</title></rect>
-<rect class="day" x="274" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-02-27" data-count="3"><title>3 commits on Fri, Feb 27, 2026</title></rect>
-<rect class="day" x="274" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-02-28" data-count="0"><title>No commits on Sat, Feb 28, 2026</title></rect>
-<rect class="day" x="288" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-01" data-count="2"><title>2 commits on Sun, Mar 1, 2026</title></rect>
-<rect class="day" x="288" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-02" data-count="3"><title>3 commits on Mon, Mar 2, 2026</title></rect>
-<rect class="day" x="288" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-03" data-count="3"><title>3 commits on Tue, Mar 3, 2026</title></rect>
-<rect class="day" x="288" y="90" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-04" data-count="5"><title>5 commits on Wed, Mar 4, 2026</title></rect>
-<rect class="day" x="288" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-05" data-count="5"><title>5 commits on Thu, Mar 5, 2026</title></rect>
-<rect class="day" x="288" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-06" data-count="2"><title>2 commits on Fri, Mar 6, 2026</title></rect>
-<rect class="day" x="288" y="132" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-03-07" data-count="1"><title>1 commit on Sat, Mar 7, 2026</title></rect>
-<rect class="day" x="302" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-08" data-count="4"><title>4 commits on Sun, Mar 8, 2026</title></rect>
-<rect class="day" x="302" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-09" data-count="8"><title>8 commits on Mon, Mar 9, 2026</title></rect>
-<rect class="day" x="302" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-10" data-count="7"><title>7 commits on Tue, Mar 10, 2026</title></rect>
-<rect class="day" x="302" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-11" data-count="16"><title>16 commits on Wed, Mar 11, 2026</title></rect>
-<rect class="day" x="302" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-12" data-count="8"><title>8 commits on Thu, Mar 12, 2026</title></rect>
-<rect class="day" x="302" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-13" data-count="9"><title>9 commits on Fri, Mar 13, 2026</title></rect>
-<rect class="day" x="302" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-14" data-count="6"><title>6 commits on Sat, Mar 14, 2026</title></rect>
-<rect class="day" x="316" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-15" data-count="2"><title>2 commits on Sun, Mar 15, 2026</title></rect>
-<rect class="day" x="316" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-03-16" data-count="3"><title>3 commits on Mon, Mar 16, 2026</title></rect>
-<rect class="day" x="316" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-17" data-count="10"><title>10 commits on Tue, Mar 17, 2026</title></rect>
-<rect class="day" x="316" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-18" data-count="0"><title>No commits on Wed, Mar 18, 2026</title></rect>
-<rect class="day" x="316" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-19" data-count="0"><title>No commits on Thu, Mar 19, 2026</title></rect>
-<rect class="day" x="316" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-20" data-count="0"><title>No commits on Fri, Mar 20, 2026</title></rect>
-<rect class="day" x="316" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-21" data-count="6"><title>6 commits on Sat, Mar 21, 2026</title></rect>
-<rect class="day" x="330" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-22" data-count="0"><title>No commits on Sun, Mar 22, 2026</title></rect>
-<rect class="day" x="330" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-23" data-count="0"><title>No commits on Mon, Mar 23, 2026</title></rect>
-<rect class="day" x="330" y="76" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-03-24" data-count="1"><title>1 commit on Tue, Mar 24, 2026</title></rect>
-<rect class="day" x="330" y="90" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-25" data-count="5"><title>5 commits on Wed, Mar 25, 2026</title></rect>
-<rect class="day" x="330" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-26" data-count="11"><title>11 commits on Thu, Mar 26, 2026</title></rect>
-<rect class="day" x="330" y="118" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-27" data-count="4"><title>4 commits on Fri, Mar 27, 2026</title></rect>
-<rect class="day" x="330" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-03-28" data-count="0"><title>No commits on Sat, Mar 28, 2026</title></rect>
-<rect class="day" x="344" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-29" data-count="5"><title>5 commits on Sun, Mar 29, 2026</title></rect>
-<rect class="day" x="344" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-03-30" data-count="6"><title>6 commits on Mon, Mar 30, 2026</title></rect>
-<rect class="day" x="344" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-03-31" data-count="7"><title>7 commits on Tue, Mar 31, 2026</title></rect>
-<rect class="day" x="344" y="90" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-01" data-count="1"><title>1 commit on Wed, Apr 1, 2026</title></rect>
-<rect class="day" x="344" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-02" data-count="8"><title>8 commits on Thu, Apr 2, 2026</title></rect>
-<rect class="day" x="344" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-03" data-count="8"><title>8 commits on Fri, Apr 3, 2026</title></rect>
-<rect class="day" x="344" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-04" data-count="14"><title>14 commits on Sat, Apr 4, 2026</title></rect>
-<rect class="day" x="358" y="48" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-05" data-count="7"><title>7 commits on Sun, Apr 5, 2026</title></rect>
-<rect class="day" x="358" y="62" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-06" data-count="1"><title>1 commit on Mon, Apr 6, 2026</title></rect>
-<rect class="day" x="358" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-07" data-count="0"><title>No commits on Tue, Apr 7, 2026</title></rect>
-<rect class="day" x="358" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-08" data-count="0"><title>No commits on Wed, Apr 8, 2026</title></rect>
-<rect class="day" x="358" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-09" data-count="0"><title>No commits on Thu, Apr 9, 2026</title></rect>
-<rect class="day" x="358" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-04-10" data-count="3"><title>3 commits on Fri, Apr 10, 2026</title></rect>
-<rect class="day" x="358" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-04-11" data-count="5"><title>5 commits on Sat, Apr 11, 2026</title></rect>
-<rect class="day" x="372" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-12" data-count="0"><title>No commits on Sun, Apr 12, 2026</title></rect>
-<rect class="day" x="372" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-13" data-count="0"><title>No commits on Mon, Apr 13, 2026</title></rect>
-<rect class="day" x="372" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-14" data-count="0"><title>No commits on Tue, Apr 14, 2026</title></rect>
-<rect class="day" x="372" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-15" data-count="0"><title>No commits on Wed, Apr 15, 2026</title></rect>
-<rect class="day" x="372" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-16" data-count="0"><title>No commits on Thu, Apr 16, 2026</title></rect>
-<rect class="day" x="372" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-17" data-count="12"><title>12 commits on Fri, Apr 17, 2026</title></rect>
-<rect class="day" x="372" y="132" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-18" data-count="1"><title>1 commit on Sat, Apr 18, 2026</title></rect>
-<rect class="day" x="386" y="48" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-19" data-count="1"><title>1 commit on Sun, Apr 19, 2026</title></rect>
-<rect class="day" x="386" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-04-20" data-count="3"><title>3 commits on Mon, Apr 20, 2026</title></rect>
-<rect class="day" x="386" y="76" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-21" data-count="1"><title>1 commit on Tue, Apr 21, 2026</title></rect>
-<rect class="day" x="386" y="90" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-04-22" data-count="2"><title>2 commits on Wed, Apr 22, 2026</title></rect>
-<rect class="day" x="386" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-23" data-count="7"><title>7 commits on Thu, Apr 23, 2026</title></rect>
-<rect class="day" x="386" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-24" data-count="0"><title>No commits on Fri, Apr 24, 2026</title></rect>
-<rect class="day" x="386" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-25" data-count="0"><title>No commits on Sat, Apr 25, 2026</title></rect>
-<rect class="day" x="400" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-04-26" data-count="0"><title>No commits on Sun, Apr 26, 2026</title></rect>
-<rect class="day" x="400" y="62" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-04-27" data-count="1"><title>1 commit on Mon, Apr 27, 2026</title></rect>
-<rect class="day" x="400" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-04-28" data-count="2"><title>2 commits on Tue, Apr 28, 2026</title></rect>
-<rect class="day" x="400" y="90" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-04-29" data-count="3"><title>3 commits on Wed, Apr 29, 2026</title></rect>
-<rect class="day" x="400" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-04-30" data-count="9"><title>9 commits on Thu, Apr 30, 2026</title></rect>
-<rect class="day" x="400" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-01" data-count="0"><title>No commits on Fri, May 1, 2026</title></rect>
-<rect class="day" x="400" y="132" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-05-02" data-count="1"><title>1 commit on Sat, May 2, 2026</title></rect>
-<rect class="day" x="414" y="48" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-05-03" data-count="1"><title>1 commit on Sun, May 3, 2026</title></rect>
-<rect class="day" x="414" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-04" data-count="0"><title>No commits on Mon, May 4, 2026</title></rect>
-<rect class="day" x="414" y="76" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-05" data-count="6"><title>6 commits on Tue, May 5, 2026</title></rect>
-<rect class="day" x="414" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-06" data-count="0"><title>No commits on Wed, May 6, 2026</title></rect>
-<rect class="day" x="414" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-05-07" data-count="24"><title>24 commits on Thu, May 7, 2026</title></rect>
-<rect class="day" x="414" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-05-08" data-count="21"><title>21 commits on Fri, May 8, 2026</title></rect>
-<rect class="day" x="414" y="132" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-09" data-count="3"><title>3 commits on Sat, May 9, 2026</title></rect>
-<rect class="day" x="428" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-10" data-count="0"><title>No commits on Sun, May 10, 2026</title></rect>
-<rect class="day" x="428" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-11" data-count="6"><title>6 commits on Mon, May 11, 2026</title></rect>
-<rect class="day" x="428" y="76" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-12" data-count="3"><title>3 commits on Tue, May 12, 2026</title></rect>
-<rect class="day" x="428" y="90" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-13" data-count="6"><title>6 commits on Wed, May 13, 2026</title></rect>
-<rect class="day" x="428" y="104" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-14" data-count="3"><title>3 commits on Thu, May 14, 2026</title></rect>
-<rect class="day" x="428" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-15" data-count="0"><title>No commits on Fri, May 15, 2026</title></rect>
-<rect class="day" x="428" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-16" data-count="0"><title>No commits on Sat, May 16, 2026</title></rect>
-<rect class="day" x="442" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-17" data-count="2"><title>2 commits on Sun, May 17, 2026</title></rect>
-<rect class="day" x="442" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-18" data-count="0"><title>No commits on Mon, May 18, 2026</title></rect>
-<rect class="day" x="442" y="76" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-19" data-count="6"><title>6 commits on Tue, May 19, 2026</title></rect>
-<rect class="day" x="442" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-20" data-count="0"><title>No commits on Wed, May 20, 2026</title></rect>
-<rect class="day" x="442" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-05-21" data-count="10"><title>10 commits on Thu, May 21, 2026</title></rect>
-<rect class="day" x="442" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-22" data-count="0"><title>No commits on Fri, May 22, 2026</title></rect>
-<rect class="day" x="442" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-23" data-count="0"><title>No commits on Sat, May 23, 2026</title></rect>
-<rect class="day" x="456" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-24" data-count="0"><title>No commits on Sun, May 24, 2026</title></rect>
-<rect class="day" x="456" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-25" data-count="3"><title>3 commits on Mon, May 25, 2026</title></rect>
-<rect class="day" x="456" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-05-26" data-count="0"><title>No commits on Tue, May 26, 2026</title></rect>
-<rect class="day" x="456" y="90" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-27" data-count="5"><title>5 commits on Wed, May 27, 2026</title></rect>
-<rect class="day" x="456" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-28" data-count="4"><title>4 commits on Thu, May 28, 2026</title></rect>
-<rect class="day" x="456" y="118" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-29" data-count="4"><title>4 commits on Fri, May 29, 2026</title></rect>
-<rect class="day" x="456" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-05-30" data-count="4"><title>4 commits on Sat, May 30, 2026</title></rect>
-<rect class="day" x="470" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-05-31" data-count="2"><title>2 commits on Sun, May 31, 2026</title></rect>
-<rect class="day" x="470" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-01" data-count="0"><title>No commits on Mon, Jun 1, 2026</title></rect>
-<rect class="day" x="470" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-02" data-count="11"><title>11 commits on Tue, Jun 2, 2026</title></rect>
-<rect class="day" x="470" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-03" data-count="12"><title>12 commits on Wed, Jun 3, 2026</title></rect>
-<rect class="day" x="470" y="104" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-06-04" data-count="3"><title>3 commits on Thu, Jun 4, 2026</title></rect>
-<rect class="day" x="470" y="118" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-05" data-count="0"><title>No commits on Fri, Jun 5, 2026</title></rect>
-<rect class="day" x="470" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-06-06" data-count="6"><title>6 commits on Sat, Jun 6, 2026</title></rect>
-<rect class="day" x="484" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-07" data-count="0"><title>No commits on Sun, Jun 7, 2026</title></rect>
-<rect class="day" x="484" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-08" data-count="7"><title>7 commits on Mon, Jun 8, 2026</title></rect>
-<rect class="day" x="484" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-09" data-count="8"><title>8 commits on Tue, Jun 9, 2026</title></rect>
-<rect class="day" x="484" y="90" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-06-10" data-count="4"><title>4 commits on Wed, Jun 10, 2026</title></rect>
-<rect class="day" x="484" y="104" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-06-11" data-count="3"><title>3 commits on Thu, Jun 11, 2026</title></rect>
-<rect class="day" x="484" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-06-12" data-count="3"><title>3 commits on Fri, Jun 12, 2026</title></rect>
-<rect class="day" x="484" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-13" data-count="13"><title>13 commits on Sat, Jun 13, 2026</title></rect>
-<rect class="day" x="498" y="48" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-06-14" data-count="1"><title>1 commit on Sun, Jun 14, 2026</title></rect>
-<rect class="day" x="498" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-15" data-count="8"><title>8 commits on Mon, Jun 15, 2026</title></rect>
-<rect class="day" x="498" y="76" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-06-16" data-count="6"><title>6 commits on Tue, Jun 16, 2026</title></rect>
-<rect class="day" x="498" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-17" data-count="17"><title>17 commits on Wed, Jun 17, 2026</title></rect>
-<rect class="day" x="498" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-06-18" data-count="6"><title>6 commits on Thu, Jun 18, 2026</title></rect>
-<rect class="day" x="498" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-19" data-count="11"><title>11 commits on Fri, Jun 19, 2026</title></rect>
-<rect class="day" x="498" y="132" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-06-20" data-count="2"><title>2 commits on Sat, Jun 20, 2026</title></rect>
-<rect class="day" x="512" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-21" data-count="0"><title>No commits on Sun, Jun 21, 2026</title></rect>
-<rect class="day" x="512" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-22" data-count="14"><title>14 commits on Mon, Jun 22, 2026</title></rect>
-<rect class="day" x="512" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-23" data-count="38"><title>38 commits on Tue, Jun 23, 2026</title></rect>
-<rect class="day" x="512" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-24" data-count="40"><title>40 commits on Wed, Jun 24, 2026</title></rect>
-<rect class="day" x="512" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-25" data-count="15"><title>15 commits on Thu, Jun 25, 2026</title></rect>
-<rect class="day" x="512" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-26" data-count="20"><title>20 commits on Fri, Jun 26, 2026</title></rect>
-<rect class="day" x="512" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-27" data-count="9"><title>9 commits on Sat, Jun 27, 2026</title></rect>
-<rect class="day" x="526" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-28" data-count="0"><title>No commits on Sun, Jun 28, 2026</title></rect>
-<rect class="day" x="526" y="62" width="11" height="11" rx="2" fill="#161b22" data-date="2026-06-29" data-count="0"><title>No commits on Mon, Jun 29, 2026</title></rect>
-<rect class="day" x="526" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-06-30" data-count="18"><title>18 commits on Tue, Jun 30, 2026</title></rect>
-<rect class="day" x="526" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-01" data-count="14"><title>14 commits on Wed, Jul 1, 2026</title></rect>
-<rect class="day" x="526" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-07-02" data-count="5"><title>5 commits on Thu, Jul 2, 2026</title></rect>
-<rect class="day" x="526" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-03" data-count="18"><title>18 commits on Fri, Jul 3, 2026</title></rect>
-<rect class="day" x="526" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-04" data-count="0"><title>No commits on Sat, Jul 4, 2026</title></rect>
-<rect class="day" x="540" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-05" data-count="0"><title>No commits on Sun, Jul 5, 2026</title></rect>
-<rect class="day" x="540" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-06" data-count="36"><title>36 commits on Mon, Jul 6, 2026</title></rect>
-<rect class="day" x="540" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-07" data-count="8"><title>8 commits on Tue, Jul 7, 2026</title></rect>
-<rect class="day" x="540" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-08" data-count="41"><title>41 commits on Wed, Jul 8, 2026</title></rect>
-<rect class="day" x="540" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-07-09" data-count="4"><title>4 commits on Thu, Jul 9, 2026</title></rect>
-<rect class="day" x="540" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-10" data-count="7"><title>7 commits on Fri, Jul 10, 2026</title></rect>
-<rect class="day" x="540" y="132" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-07-11" data-count="3"><title>3 commits on Sat, Jul 11, 2026</title></rect>
-<rect class="day" x="554" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-12" data-count="0"><title>No commits on Sun, Jul 12, 2026</title></rect>
-<rect class="day" x="554" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-07-13" data-count="5"><title>5 commits on Mon, Jul 13, 2026</title></rect>
-<rect class="day" x="554" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-14" data-count="0"><title>No commits on Tue, Jul 14, 2026</title></rect>
-<rect class="day" x="554" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-15" data-count="12"><title>12 commits on Wed, Jul 15, 2026</title></rect>
-<rect class="day" x="554" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-16" data-count="0"><title>No commits on Thu, Jul 16, 2026</title></rect>
-<rect class="day" x="554" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-17" data-count="29"><title>29 commits on Fri, Jul 17, 2026</title></rect>
-<rect class="day" x="554" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-18" data-count="0"><title>No commits on Sat, Jul 18, 2026</title></rect>
-<rect class="day" x="568" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-07-19" data-count="2"><title>2 commits on Sun, Jul 19, 2026</title></rect>
-<rect class="day" x="568" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-20" data-count="29"><title>29 commits on Mon, Jul 20, 2026</title></rect>
-<rect class="day" x="568" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-21" data-count="25"><title>25 commits on Tue, Jul 21, 2026</title></rect>
-<rect class="day" x="568" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-22" data-count="27"><title>27 commits on Wed, Jul 22, 2026</title></rect>
-<rect class="day" x="568" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-23" data-count="0"><title>No commits on Thu, Jul 23, 2026</title></rect>
-<rect class="day" x="568" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-24" data-count="7"><title>7 commits on Fri, Jul 24, 2026</title></rect>
-<rect class="day" x="568" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-25" data-count="0"><title>No commits on Sat, Jul 25, 2026</title></rect>
-<rect class="day" x="582" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-26" data-count="0"><title>No commits on Sun, Jul 26, 2026</title></rect>
-<rect class="day" x="582" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-27" data-count="16"><title>16 commits on Mon, Jul 27, 2026</title></rect>
-<rect class="day" x="582" y="76" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-28" data-count="0"><title>No commits on Tue, Jul 28, 2026</title></rect>
-<rect class="day" x="582" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-07-29" data-count="0"><title>No commits on Wed, Jul 29, 2026</title></rect>
-<rect class="day" x="582" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-30" data-count="29"><title>29 commits on Thu, Jul 30, 2026</title></rect>
-<rect class="day" x="582" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-07-31" data-count="23"><title>23 commits on Fri, Jul 31, 2026</title></rect>
-<rect class="day" x="582" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-08-01" data-count="0"><title>No commits on Sat, Aug 1, 2026</title></rect>
-<rect class="day" x="596" y="48" width="11" height="11" rx="2" fill="#0e3a5a" data-date="2026-08-02" data-count="1"><title>1 commit on Sun, Aug 2, 2026</title></rect>
-<rect class="day" x="596" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-03" data-count="28"><title>28 commits on Mon, Aug 3, 2026</title></rect>
-<rect class="day" x="596" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-04" data-count="19"><title>19 commits on Tue, Aug 4, 2026</title></rect>
-<rect class="day" x="596" y="90" width="11" height="11" rx="2" fill="#161b22" data-date="2026-08-05" data-count="0"><title>No commits on Wed, Aug 5, 2026</title></rect>
-<rect class="day" x="596" y="104" width="11" height="11" rx="2" fill="#161b22" data-date="2026-08-06" data-count="0"><title>No commits on Thu, Aug 6, 2026</title></rect>
-<rect class="day" x="596" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-07" data-count="27"><title>27 commits on Fri, Aug 7, 2026</title></rect>
-<rect class="day" x="596" y="132" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-08-08" data-count="3"><title>3 commits on Sat, Aug 8, 2026</title></rect>
-<rect class="day" x="610" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-08-09" data-count="0"><title>No commits on Sun, Aug 9, 2026</title></rect>
-<rect class="day" x="610" y="62" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-08-10" data-count="4"><title>4 commits on Mon, Aug 10, 2026</title></rect>
-<rect class="day" x="610" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-11" data-count="18"><title>18 commits on Tue, Aug 11, 2026</title></rect>
-<rect class="day" x="610" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-12" data-count="24"><title>24 commits on Wed, Aug 12, 2026</title></rect>
-<rect class="day" x="610" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-13" data-count="30"><title>30 commits on Thu, Aug 13, 2026</title></rect>
-<rect class="day" x="610" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-14" data-count="20"><title>20 commits on Fri, Aug 14, 2026</title></rect>
-<rect class="day" x="610" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-15" data-count="8"><title>8 commits on Sat, Aug 15, 2026</title></rect>
-<rect class="day" x="624" y="48" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-16" data-count="11"><title>11 commits on Sun, Aug 16, 2026</title></rect>
-<rect class="day" x="624" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-17" data-count="26"><title>26 commits on Mon, Aug 17, 2026</title></rect>
-<rect class="day" x="624" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-18" data-count="19"><title>19 commits on Tue, Aug 18, 2026</title></rect>
-<rect class="day" x="624" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-19" data-count="11"><title>11 commits on Wed, Aug 19, 2026</title></rect>
-<rect class="day" x="624" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-20" data-count="23"><title>23 commits on Thu, Aug 20, 2026</title></rect>
-<rect class="day" x="624" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-21" data-count="19"><title>19 commits on Fri, Aug 21, 2026</title></rect>
-<rect class="day" x="624" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-08-22" data-count="5"><title>5 commits on Sat, Aug 22, 2026</title></rect>
-<rect class="day" x="638" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-08-23" data-count="0"><title>No commits on Sun, Aug 23, 2026</title></rect>
-<rect class="day" x="638" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-24" data-count="36"><title>36 commits on Mon, Aug 24, 2026</title></rect>
-<rect class="day" x="638" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-25" data-count="24"><title>24 commits on Tue, Aug 25, 2026</title></rect>
-<rect class="day" x="638" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-26" data-count="29"><title>29 commits on Wed, Aug 26, 2026</title></rect>
-<rect class="day" x="638" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-27" data-count="34"><title>34 commits on Thu, Aug 27, 2026</title></rect>
-<rect class="day" x="638" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-28" data-count="19"><title>19 commits on Fri, Aug 28, 2026</title></rect>
-<rect class="day" x="638" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-29" data-count="37"><title>37 commits on Sat, Aug 29, 2026</title></rect>
-<rect class="day" x="652" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-08-30" data-count="4"><title>4 commits on Sun, Aug 30, 2026</title></rect>
-<rect class="day" x="652" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-08-31" data-count="33"><title>33 commits on Mon, Aug 31, 2026</title></rect>
-<rect class="day" x="652" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-01" data-count="31"><title>31 commits on Tue, Sep 1, 2026</title></rect>
-<rect class="day" x="652" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-02" data-count="51"><title>51 commits on Wed, Sep 2, 2026</title></rect>
-<rect class="day" x="652" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-03" data-count="80"><title>80 commits on Thu, Sep 3, 2026</title></rect>
-<rect class="day" x="652" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-04" data-count="30"><title>30 commits on Fri, Sep 4, 2026</title></rect>
-<rect class="day" x="652" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-05" data-count="9"><title>9 commits on Sat, Sep 5, 2026</title></rect>
-<rect class="day" x="666" y="48" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-06" data-count="8"><title>8 commits on Sun, Sep 6, 2026</title></rect>
-<rect class="day" x="666" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-07" data-count="41"><title>41 commits on Mon, Sep 7, 2026</title></rect>
-<rect class="day" x="666" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-08" data-count="23"><title>23 commits on Tue, Sep 8, 2026</title></rect>
-<rect class="day" x="666" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-09" data-count="62"><title>62 commits on Wed, Sep 9, 2026</title></rect>
-<rect class="day" x="666" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-10" data-count="12"><title>12 commits on Thu, Sep 10, 2026</title></rect>
-<rect class="day" x="666" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-11" data-count="20"><title>20 commits on Fri, Sep 11, 2026</title></rect>
-<rect class="day" x="666" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-09-12" data-count="0"><title>No commits on Sat, Sep 12, 2026</title></rect>
-<rect class="day" x="680" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-09-13" data-count="2"><title>2 commits on Sun, Sep 13, 2026</title></rect>
-<rect class="day" x="680" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-14" data-count="15"><title>15 commits on Mon, Sep 14, 2026</title></rect>
-<rect class="day" x="680" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-15" data-count="33"><title>33 commits on Tue, Sep 15, 2026</title></rect>
-<rect class="day" x="680" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-16" data-count="20"><title>20 commits on Wed, Sep 16, 2026</title></rect>
-<rect class="day" x="680" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-17" data-count="46"><title>46 commits on Thu, Sep 17, 2026</title></rect>
-<rect class="day" x="680" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-18" data-count="53"><title>53 commits on Fri, Sep 18, 2026</title></rect>
-<rect class="day" x="680" y="132" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-09-19" data-count="4"><title>4 commits on Sat, Sep 19, 2026</title></rect>
-<rect class="day" x="694" y="48" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-09-20" data-count="2"><title>2 commits on Sun, Sep 20, 2026</title></rect>
-<rect class="day" x="694" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-21" data-count="17"><title>17 commits on Mon, Sep 21, 2026</title></rect>
-<rect class="day" x="694" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-22" data-count="25"><title>25 commits on Tue, Sep 22, 2026</title></rect>
-<rect class="day" x="694" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-23" data-count="39"><title>39 commits on Wed, Sep 23, 2026</title></rect>
-<rect class="day" x="694" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-24" data-count="30"><title>30 commits on Thu, Sep 24, 2026</title></rect>
-<rect class="day" x="694" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-25" data-count="18"><title>18 commits on Fri, Sep 25, 2026</title></rect>
-<rect class="day" x="694" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-26" data-count="9"><title>9 commits on Sat, Sep 26, 2026</title></rect>
-<rect class="day" x="708" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-09-27" data-count="0"><title>No commits on Sun, Sep 27, 2026</title></rect>
-<rect class="day" x="708" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-28" data-count="15"><title>15 commits on Mon, Sep 28, 2026</title></rect>
-<rect class="day" x="708" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-29" data-count="28"><title>28 commits on Tue, Sep 29, 2026</title></rect>
-<rect class="day" x="708" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-09-30" data-count="34"><title>34 commits on Wed, Sep 30, 2026</title></rect>
-<rect class="day" x="708" y="104" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-10-01" data-count="6"><title>6 commits on Thu, Oct 1, 2026</title></rect>
-<rect class="day" x="708" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-02" data-count="23"><title>23 commits on Fri, Oct 2, 2026</title></rect>
-<rect class="day" x="708" y="132" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-03" data-count="14"><title>14 commits on Sat, Oct 3, 2026</title></rect>
-<rect class="day" x="722" y="48" width="11" height="11" rx="2" fill="#0ea5e9" data-date="2026-10-04" data-count="6"><title>6 commits on Sun, Oct 4, 2026</title></rect>
-<rect class="day" x="722" y="62" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-10-05" data-count="2"><title>2 commits on Mon, Oct 5, 2026</title></rect>
-<rect class="day" x="722" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-06" data-count="31"><title>31 commits on Tue, Oct 6, 2026</title></rect>
-<rect class="day" x="722" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-07" data-count="33"><title>33 commits on Wed, Oct 7, 2026</title></rect>
-<rect class="day" x="722" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-08" data-count="17"><title>17 commits on Thu, Oct 8, 2026</title></rect>
-<rect class="day" x="722" y="118" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-10-09" data-count="3"><title>3 commits on Fri, Oct 9, 2026</title></rect>
-<rect class="day" x="722" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-10-10" data-count="0"><title>No commits on Sat, Oct 10, 2026</title></rect>
-<rect class="day" x="736" y="48" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-11" data-count="22"><title>22 commits on Sun, Oct 11, 2026</title></rect>
-<rect class="day" x="736" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-12" data-count="11"><title>11 commits on Mon, Oct 12, 2026</title></rect>
-<rect class="day" x="736" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-13" data-count="64"><title>64 commits on Tue, Oct 13, 2026</title></rect>
-<rect class="day" x="736" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-14" data-count="60"><title>60 commits on Wed, Oct 14, 2026</title></rect>
-<rect class="day" x="736" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-15" data-count="59"><title>59 commits on Thu, Oct 15, 2026</title></rect>
-<rect class="day" x="736" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-16" data-count="48"><title>48 commits on Fri, Oct 16, 2026</title></rect>
-<rect class="day" x="736" y="132" width="11" height="11" rx="2" fill="#161b22" data-date="2026-10-17" data-count="0"><title>No commits on Sat, Oct 17, 2026</title></rect>
-<rect class="day" x="750" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-10-18" data-count="0"><title>No commits on Sun, Oct 18, 2026</title></rect>
-<rect class="day" x="750" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-19" data-count="9"><title>9 commits on Mon, Oct 19, 2026</title></rect>
-<rect class="day" x="750" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-20" data-count="29"><title>29 commits on Tue, Oct 20, 2026</title></rect>
-<rect class="day" x="750" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-21" data-count="20"><title>20 commits on Wed, Oct 21, 2026</title></rect>
-<rect class="day" x="750" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-22" data-count="17"><title>17 commits on Thu, Oct 22, 2026</title></rect>
-<rect class="day" x="750" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-23" data-count="35"><title>35 commits on Fri, Oct 23, 2026</title></rect>
-<rect class="day" x="750" y="132" width="11" height="11" rx="2" fill="#0369a1" data-date="2026-10-24" data-count="2"><title>2 commits on Sat, Oct 24, 2026</title></rect>
-<rect class="day" x="764" y="48" width="11" height="11" rx="2" fill="#161b22" data-date="2026-10-25" data-count="0"><title>No commits on Sun, Oct 25, 2026</title></rect>
-<rect class="day" x="764" y="62" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-26" data-count="35"><title>35 commits on Mon, Oct 26, 2026</title></rect>
-<rect class="day" x="764" y="76" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-27" data-count="19"><title>19 commits on Tue, Oct 27, 2026</title></rect>
-<rect class="day" x="764" y="90" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-28" data-count="44"><title>44 commits on Wed, Oct 28, 2026</title></rect>
-<rect class="day" x="764" y="104" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-29" data-count="9"><title>9 commits on Thu, Oct 29, 2026</title></rect>
-<rect class="day" x="764" y="118" width="11" height="11" rx="2" fill="#7dd3fc" data-date="2026-10-30" data-count="17"><title>17 commits on Fri, Oct 30, 2026</title></rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="746" height="171" viewBox="0 0 746 171" role="img">
+  <title>3,140 contributions in the last year</title>
+  <rect width="746" height="171" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="12" y="18" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">3,140 contributions in the last year</text>
+  <text x="28" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Nov</text>
+<text x="93" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Dec</text>
+<text x="145" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Jan</text>
+<text x="210" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Feb</text>
+<text x="262" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Mar</text>
+<text x="314" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Apr</text>
+<text x="366" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">May</text>
+<text x="431" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Jun</text>
+<text x="483" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Jul</text>
+<text x="535" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Aug</text>
+<text x="600" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Sep</text>
+<text x="652" y="28" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Oct</text>
+  <text x="0" y="62" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10">Mon</text>
+<text x="0" y="88" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10">Wed</text>
+<text x="0" y="114" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10">Fri</text>
+  <rect class="day" x="28" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-10-26" data-count="1"><title>1 contribution on October 26th.</title></rect>
+<rect class="day" x="28" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2025-10-27" data-count="3"><title>3 contributions on October 27th.</title></rect>
+<rect class="day" x="28" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2025-10-28" data-count="0"><title>No contributions on October 28th.</title></rect>
+<rect class="day" x="28" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2025-10-29" data-count="26"><title>26 contributions on October 29th.</title></rect>
+<rect class="day" x="28" y="92" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-10-30" data-count="1"><title>1 contribution on October 30th.</title></rect>
+<rect class="day" x="28" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2025-10-31" data-count="0"><title>No contributions on October 31st.</title></rect>
+<rect class="day" x="28" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-01" data-count="0"><title>No contributions on November 1st.</title></rect>
+<rect class="day" x="41" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-11-02" data-count="2"><title>2 contributions on November 2nd.</title></rect>
+<rect class="day" x="41" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-03" data-count="0"><title>No contributions on November 3rd.</title></rect>
+<rect class="day" x="41" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-11-04" data-count="2"><title>2 contributions on November 4th.</title></rect>
+<rect class="day" x="41" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-11-05" data-count="1"><title>1 contribution on November 5th.</title></rect>
+<rect class="day" x="41" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-06" data-count="0"><title>No contributions on November 6th.</title></rect>
+<rect class="day" x="41" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-07" data-count="0"><title>No contributions on November 7th.</title></rect>
+<rect class="day" x="41" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2025-11-08" data-count="9"><title>9 contributions on November 8th.</title></rect>
+<rect class="day" x="54" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2025-11-09" data-count="3"><title>3 contributions on November 9th.</title></rect>
+<rect class="day" x="54" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-10" data-count="0"><title>No contributions on November 10th.</title></rect>
+<rect class="day" x="54" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-11" data-count="0"><title>No contributions on November 11th.</title></rect>
+<rect class="day" x="54" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-12" data-count="0"><title>No contributions on November 12th.</title></rect>
+<rect class="day" x="54" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-13" data-count="0"><title>No contributions on November 13th.</title></rect>
+<rect class="day" x="54" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-14" data-count="0"><title>No contributions on November 14th.</title></rect>
+<rect class="day" x="54" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-15" data-count="0"><title>No contributions on November 15th.</title></rect>
+<rect class="day" x="67" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-16" data-count="0"><title>No contributions on November 16th.</title></rect>
+<rect class="day" x="67" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-17" data-count="0"><title>No contributions on November 17th.</title></rect>
+<rect class="day" x="67" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-18" data-count="0"><title>No contributions on November 18th.</title></rect>
+<rect class="day" x="67" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-19" data-count="0"><title>No contributions on November 19th.</title></rect>
+<rect class="day" x="67" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-20" data-count="0"><title>No contributions on November 20th.</title></rect>
+<rect class="day" x="67" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2025-11-21" data-count="4"><title>4 contributions on November 21st.</title></rect>
+<rect class="day" x="67" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-11-22" data-count="1"><title>1 contribution on November 22nd.</title></rect>
+<rect class="day" x="80" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2025-11-23" data-count="3"><title>3 contributions on November 23rd.</title></rect>
+<rect class="day" x="80" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-24" data-count="0"><title>No contributions on November 24th.</title></rect>
+<rect class="day" x="80" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2025-11-25" data-count="21"><title>21 contributions on November 25th.</title></rect>
+<rect class="day" x="80" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-26" data-count="0"><title>No contributions on November 26th.</title></rect>
+<rect class="day" x="80" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2025-11-27" data-count="0"><title>No contributions on November 27th.</title></rect>
+<rect class="day" x="80" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2025-11-28" data-count="4"><title>4 contributions on November 28th.</title></rect>
+<rect class="day" x="80" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2025-11-29" data-count="9"><title>9 contributions on November 29th.</title></rect>
+<rect class="day" x="93" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2025-11-30" data-count="5"><title>5 contributions on November 30th.</title></rect>
+<rect class="day" x="93" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-01" data-count="0"><title>No contributions on December 1st.</title></rect>
+<rect class="day" x="93" y="66" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-02" data-count="3"><title>3 contributions on December 2nd.</title></rect>
+<rect class="day" x="93" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-03" data-count="0"><title>No contributions on December 3rd.</title></rect>
+<rect class="day" x="93" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-04" data-count="5"><title>5 contributions on December 4th.</title></rect>
+<rect class="day" x="93" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2025-12-05" data-count="7"><title>7 contributions on December 5th.</title></rect>
+<rect class="day" x="93" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2025-12-06" data-count="9"><title>9 contributions on December 6th.</title></rect>
+<rect class="day" x="106" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-07" data-count="5"><title>5 contributions on December 7th.</title></rect>
+<rect class="day" x="106" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-08" data-count="5"><title>5 contributions on December 8th.</title></rect>
+<rect class="day" x="106" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-09" data-count="2"><title>2 contributions on December 9th.</title></rect>
+<rect class="day" x="106" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-10" data-count="2"><title>2 contributions on December 10th.</title></rect>
+<rect class="day" x="106" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-11" data-count="0"><title>No contributions on December 11th.</title></rect>
+<rect class="day" x="106" y="105" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-12" data-count="2"><title>2 contributions on December 12th.</title></rect>
+<rect class="day" x="106" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-13" data-count="0"><title>No contributions on December 13th.</title></rect>
+<rect class="day" x="119" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-14" data-count="0"><title>No contributions on December 14th.</title></rect>
+<rect class="day" x="119" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-15" data-count="0"><title>No contributions on December 15th.</title></rect>
+<rect class="day" x="119" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-16" data-count="0"><title>No contributions on December 16th.</title></rect>
+<rect class="day" x="119" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-17" data-count="0"><title>No contributions on December 17th.</title></rect>
+<rect class="day" x="119" y="92" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-18" data-count="2"><title>2 contributions on December 18th.</title></rect>
+<rect class="day" x="119" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2025-12-19" data-count="13"><title>13 contributions on December 19th.</title></rect>
+<rect class="day" x="119" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-20" data-count="0"><title>No contributions on December 20th.</title></rect>
+<rect class="day" x="132" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-21" data-count="3"><title>3 contributions on December 21st.</title></rect>
+<rect class="day" x="132" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2025-12-22" data-count="6"><title>6 contributions on December 22nd.</title></rect>
+<rect class="day" x="132" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-23" data-count="1"><title>1 contribution on December 23rd.</title></rect>
+<rect class="day" x="132" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-24" data-count="1"><title>1 contribution on December 24th.</title></rect>
+<rect class="day" x="132" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-25" data-count="4"><title>4 contributions on December 25th.</title></rect>
+<rect class="day" x="132" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-26" data-count="0"><title>No contributions on December 26th.</title></rect>
+<rect class="day" x="132" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2025-12-27" data-count="1"><title>1 contribution on December 27th.</title></rect>
+<rect class="day" x="145" y="40" width="10" height="10" rx="2" fill="#26a641" data-date="2025-12-28" data-count="7"><title>7 contributions on December 28th.</title></rect>
+<rect class="day" x="145" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2025-12-29" data-count="5"><title>5 contributions on December 29th.</title></rect>
+<rect class="day" x="145" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-30" data-count="0"><title>No contributions on December 30th.</title></rect>
+<rect class="day" x="145" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2025-12-31" data-count="0"><title>No contributions on December 31st.</title></rect>
+<rect class="day" x="145" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-01" data-count="0"><title>No contributions on January 1st.</title></rect>
+<rect class="day" x="145" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-02" data-count="0"><title>No contributions on January 2nd.</title></rect>
+<rect class="day" x="145" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-03" data-count="0"><title>No contributions on January 3rd.</title></rect>
+<rect class="day" x="158" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-04" data-count="0"><title>No contributions on January 4th.</title></rect>
+<rect class="day" x="158" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-05" data-count="0"><title>No contributions on January 5th.</title></rect>
+<rect class="day" x="158" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-06" data-count="0"><title>No contributions on January 6th.</title></rect>
+<rect class="day" x="158" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-07" data-count="0"><title>No contributions on January 7th.</title></rect>
+<rect class="day" x="158" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-08" data-count="0"><title>No contributions on January 8th.</title></rect>
+<rect class="day" x="158" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-09" data-count="0"><title>No contributions on January 9th.</title></rect>
+<rect class="day" x="158" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-10" data-count="0"><title>No contributions on January 10th.</title></rect>
+<rect class="day" x="171" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-11" data-count="0"><title>No contributions on January 11th.</title></rect>
+<rect class="day" x="171" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-12" data-count="0"><title>No contributions on January 12th.</title></rect>
+<rect class="day" x="171" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-13" data-count="0"><title>No contributions on January 13th.</title></rect>
+<rect class="day" x="171" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-14" data-count="0"><title>No contributions on January 14th.</title></rect>
+<rect class="day" x="171" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-15" data-count="0"><title>No contributions on January 15th.</title></rect>
+<rect class="day" x="171" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-16" data-count="0"><title>No contributions on January 16th.</title></rect>
+<rect class="day" x="171" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-17" data-count="0"><title>No contributions on January 17th.</title></rect>
+<rect class="day" x="184" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-18" data-count="0"><title>No contributions on January 18th.</title></rect>
+<rect class="day" x="184" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-19" data-count="0"><title>No contributions on January 19th.</title></rect>
+<rect class="day" x="184" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-20" data-count="0"><title>No contributions on January 20th.</title></rect>
+<rect class="day" x="184" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-21" data-count="0"><title>No contributions on January 21st.</title></rect>
+<rect class="day" x="184" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-22" data-count="0"><title>No contributions on January 22nd.</title></rect>
+<rect class="day" x="184" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-23" data-count="0"><title>No contributions on January 23rd.</title></rect>
+<rect class="day" x="184" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-24" data-count="0"><title>No contributions on January 24th.</title></rect>
+<rect class="day" x="197" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-25" data-count="0"><title>No contributions on January 25th.</title></rect>
+<rect class="day" x="197" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-26" data-count="0"><title>No contributions on January 26th.</title></rect>
+<rect class="day" x="197" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-27" data-count="0"><title>No contributions on January 27th.</title></rect>
+<rect class="day" x="197" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-28" data-count="0"><title>No contributions on January 28th.</title></rect>
+<rect class="day" x="197" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-29" data-count="0"><title>No contributions on January 29th.</title></rect>
+<rect class="day" x="197" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-30" data-count="0"><title>No contributions on January 30th.</title></rect>
+<rect class="day" x="197" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-01-31" data-count="0"><title>No contributions on January 31st.</title></rect>
+<rect class="day" x="210" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-01" data-count="0"><title>No contributions on February 1st.</title></rect>
+<rect class="day" x="210" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-02" data-count="0"><title>No contributions on February 2nd.</title></rect>
+<rect class="day" x="210" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-03" data-count="0"><title>No contributions on February 3rd.</title></rect>
+<rect class="day" x="210" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-02-04" data-count="2"><title>2 contributions on February 4th.</title></rect>
+<rect class="day" x="210" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-05" data-count="5"><title>5 contributions on February 5th.</title></rect>
+<rect class="day" x="210" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-06" data-count="0"><title>No contributions on February 6th.</title></rect>
+<rect class="day" x="210" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-07" data-count="0"><title>No contributions on February 7th.</title></rect>
+<rect class="day" x="223" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-08" data-count="3"><title>3 contributions on February 8th.</title></rect>
+<rect class="day" x="223" y="53" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-02-09" data-count="2"><title>2 contributions on February 9th.</title></rect>
+<rect class="day" x="223" y="66" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-10" data-count="4"><title>4 contributions on February 10th.</title></rect>
+<rect class="day" x="223" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-11" data-count="9"><title>9 contributions on February 11th.</title></rect>
+<rect class="day" x="223" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-12" data-count="6"><title>6 contributions on February 12th.</title></rect>
+<rect class="day" x="223" y="105" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-02-13" data-count="2"><title>2 contributions on February 13th.</title></rect>
+<rect class="day" x="223" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-14" data-count="5"><title>5 contributions on February 14th.</title></rect>
+<rect class="day" x="236" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-15" data-count="3"><title>3 contributions on February 15th.</title></rect>
+<rect class="day" x="236" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-16" data-count="3"><title>3 contributions on February 16th.</title></rect>
+<rect class="day" x="236" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-17" data-count="8"><title>8 contributions on February 17th.</title></rect>
+<rect class="day" x="236" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-02-18" data-count="2"><title>2 contributions on February 18th.</title></rect>
+<rect class="day" x="236" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-19" data-count="6"><title>6 contributions on February 19th.</title></rect>
+<rect class="day" x="236" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-20" data-count="4"><title>4 contributions on February 20th.</title></rect>
+<rect class="day" x="236" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-21" data-count="7"><title>7 contributions on February 21st.</title></rect>
+<rect class="day" x="249" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-22" data-count="0"><title>No contributions on February 22nd.</title></rect>
+<rect class="day" x="249" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-23" data-count="3"><title>3 contributions on February 23rd.</title></rect>
+<rect class="day" x="249" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-24" data-count="10"><title>10 contributions on February 24th.</title></rect>
+<rect class="day" x="249" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-25" data-count="8"><title>8 contributions on February 25th.</title></rect>
+<rect class="day" x="249" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-02-26" data-count="6"><title>6 contributions on February 26th.</title></rect>
+<rect class="day" x="249" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-02-27" data-count="3"><title>3 contributions on February 27th.</title></rect>
+<rect class="day" x="249" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-02-28" data-count="0"><title>No contributions on February 28th.</title></rect>
+<rect class="day" x="262" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-03-01" data-count="2"><title>2 contributions on March 1st.</title></rect>
+<rect class="day" x="262" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-02" data-count="3"><title>3 contributions on March 2nd.</title></rect>
+<rect class="day" x="262" y="66" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-03" data-count="3"><title>3 contributions on March 3rd.</title></rect>
+<rect class="day" x="262" y="79" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-04" data-count="5"><title>5 contributions on March 4th.</title></rect>
+<rect class="day" x="262" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-05" data-count="5"><title>5 contributions on March 5th.</title></rect>
+<rect class="day" x="262" y="105" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-03-06" data-count="2"><title>2 contributions on March 6th.</title></rect>
+<rect class="day" x="262" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-03-07" data-count="1"><title>1 contribution on March 7th.</title></rect>
+<rect class="day" x="275" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-08" data-count="4"><title>4 contributions on March 8th.</title></rect>
+<rect class="day" x="275" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-09" data-count="8"><title>8 contributions on March 9th.</title></rect>
+<rect class="day" x="275" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-10" data-count="7"><title>7 contributions on March 10th.</title></rect>
+<rect class="day" x="275" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-03-11" data-count="16"><title>16 contributions on March 11th.</title></rect>
+<rect class="day" x="275" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-12" data-count="8"><title>8 contributions on March 12th.</title></rect>
+<rect class="day" x="275" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-13" data-count="9"><title>9 contributions on March 13th.</title></rect>
+<rect class="day" x="275" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-14" data-count="6"><title>6 contributions on March 14th.</title></rect>
+<rect class="day" x="288" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-03-15" data-count="2"><title>2 contributions on March 15th.</title></rect>
+<rect class="day" x="288" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-16" data-count="3"><title>3 contributions on March 16th.</title></rect>
+<rect class="day" x="288" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-17" data-count="10"><title>10 contributions on March 17th.</title></rect>
+<rect class="day" x="288" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-18" data-count="0"><title>No contributions on March 18th.</title></rect>
+<rect class="day" x="288" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-19" data-count="0"><title>No contributions on March 19th.</title></rect>
+<rect class="day" x="288" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-20" data-count="0"><title>No contributions on March 20th.</title></rect>
+<rect class="day" x="288" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-21" data-count="6"><title>6 contributions on March 21st.</title></rect>
+<rect class="day" x="301" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-22" data-count="0"><title>No contributions on March 22nd.</title></rect>
+<rect class="day" x="301" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-23" data-count="0"><title>No contributions on March 23rd.</title></rect>
+<rect class="day" x="301" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-03-24" data-count="1"><title>1 contribution on March 24th.</title></rect>
+<rect class="day" x="301" y="79" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-25" data-count="5"><title>5 contributions on March 25th.</title></rect>
+<rect class="day" x="301" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-26" data-count="11"><title>11 contributions on March 26th.</title></rect>
+<rect class="day" x="301" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-27" data-count="4"><title>4 contributions on March 27th.</title></rect>
+<rect class="day" x="301" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-03-28" data-count="0"><title>No contributions on March 28th.</title></rect>
+<rect class="day" x="314" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2026-03-29" data-count="5"><title>5 contributions on March 29th.</title></rect>
+<rect class="day" x="314" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-30" data-count="6"><title>6 contributions on March 30th.</title></rect>
+<rect class="day" x="314" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-03-31" data-count="7"><title>7 contributions on March 31st.</title></rect>
+<rect class="day" x="314" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-01" data-count="1"><title>1 contribution on April 1st.</title></rect>
+<rect class="day" x="314" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-02" data-count="8"><title>8 contributions on April 2nd.</title></rect>
+<rect class="day" x="314" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-03" data-count="8"><title>8 contributions on April 3rd.</title></rect>
+<rect class="day" x="314" y="118" width="10" height="10" rx="2" fill="#39d353" data-date="2026-04-04" data-count="14"><title>14 contributions on April 4th.</title></rect>
+<rect class="day" x="327" y="40" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-05" data-count="7"><title>7 contributions on April 5th.</title></rect>
+<rect class="day" x="327" y="53" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-06" data-count="1"><title>1 contribution on April 6th.</title></rect>
+<rect class="day" x="327" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-07" data-count="0"><title>No contributions on April 7th.</title></rect>
+<rect class="day" x="327" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-08" data-count="0"><title>No contributions on April 8th.</title></rect>
+<rect class="day" x="327" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-09" data-count="0"><title>No contributions on April 9th.</title></rect>
+<rect class="day" x="327" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-04-10" data-count="3"><title>3 contributions on April 10th.</title></rect>
+<rect class="day" x="327" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-04-11" data-count="5"><title>5 contributions on April 11th.</title></rect>
+<rect class="day" x="340" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-12" data-count="0"><title>No contributions on April 12th.</title></rect>
+<rect class="day" x="340" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-13" data-count="0"><title>No contributions on April 13th.</title></rect>
+<rect class="day" x="340" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-14" data-count="0"><title>No contributions on April 14th.</title></rect>
+<rect class="day" x="340" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-15" data-count="0"><title>No contributions on April 15th.</title></rect>
+<rect class="day" x="340" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-16" data-count="0"><title>No contributions on April 16th.</title></rect>
+<rect class="day" x="340" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-17" data-count="12"><title>12 contributions on April 17th.</title></rect>
+<rect class="day" x="340" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-18" data-count="1"><title>1 contribution on April 18th.</title></rect>
+<rect class="day" x="353" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-19" data-count="1"><title>1 contribution on April 19th.</title></rect>
+<rect class="day" x="353" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-04-20" data-count="3"><title>3 contributions on April 20th.</title></rect>
+<rect class="day" x="353" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-21" data-count="1"><title>1 contribution on April 21st.</title></rect>
+<rect class="day" x="353" y="79" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-22" data-count="2"><title>2 contributions on April 22nd.</title></rect>
+<rect class="day" x="353" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-23" data-count="7"><title>7 contributions on April 23rd.</title></rect>
+<rect class="day" x="353" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-24" data-count="0"><title>No contributions on April 24th.</title></rect>
+<rect class="day" x="353" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-25" data-count="0"><title>No contributions on April 25th.</title></rect>
+<rect class="day" x="366" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-04-26" data-count="0"><title>No contributions on April 26th.</title></rect>
+<rect class="day" x="366" y="53" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-27" data-count="1"><title>1 contribution on April 27th.</title></rect>
+<rect class="day" x="366" y="66" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-04-28" data-count="2"><title>2 contributions on April 28th.</title></rect>
+<rect class="day" x="366" y="79" width="10" height="10" rx="2" fill="#006d32" data-date="2026-04-29" data-count="3"><title>3 contributions on April 29th.</title></rect>
+<rect class="day" x="366" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-04-30" data-count="9"><title>9 contributions on April 30th.</title></rect>
+<rect class="day" x="366" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-01" data-count="0"><title>No contributions on May 1st.</title></rect>
+<rect class="day" x="366" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-05-02" data-count="1"><title>1 contribution on May 2nd.</title></rect>
+<rect class="day" x="379" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-05-03" data-count="1"><title>1 contribution on May 3rd.</title></rect>
+<rect class="day" x="379" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-04" data-count="0"><title>No contributions on May 4th.</title></rect>
+<rect class="day" x="379" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-05-05" data-count="6"><title>6 contributions on May 5th.</title></rect>
+<rect class="day" x="379" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-06" data-count="0"><title>No contributions on May 6th.</title></rect>
+<rect class="day" x="379" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-05-07" data-count="24"><title>24 contributions on May 7th.</title></rect>
+<rect class="day" x="379" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-05-08" data-count="21"><title>21 contributions on May 8th.</title></rect>
+<rect class="day" x="379" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-09" data-count="3"><title>3 contributions on May 9th.</title></rect>
+<rect class="day" x="392" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-10" data-count="0"><title>No contributions on May 10th.</title></rect>
+<rect class="day" x="392" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-05-11" data-count="6"><title>6 contributions on May 11th.</title></rect>
+<rect class="day" x="392" y="66" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-12" data-count="3"><title>3 contributions on May 12th.</title></rect>
+<rect class="day" x="392" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-05-13" data-count="6"><title>6 contributions on May 13th.</title></rect>
+<rect class="day" x="392" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-14" data-count="3"><title>3 contributions on May 14th.</title></rect>
+<rect class="day" x="392" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-15" data-count="0"><title>No contributions on May 15th.</title></rect>
+<rect class="day" x="392" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-16" data-count="0"><title>No contributions on May 16th.</title></rect>
+<rect class="day" x="405" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-05-17" data-count="2"><title>2 contributions on May 17th.</title></rect>
+<rect class="day" x="405" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-18" data-count="0"><title>No contributions on May 18th.</title></rect>
+<rect class="day" x="405" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-05-19" data-count="6"><title>6 contributions on May 19th.</title></rect>
+<rect class="day" x="405" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-20" data-count="0"><title>No contributions on May 20th.</title></rect>
+<rect class="day" x="405" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-05-21" data-count="10"><title>10 contributions on May 21st.</title></rect>
+<rect class="day" x="405" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-22" data-count="0"><title>No contributions on May 22nd.</title></rect>
+<rect class="day" x="405" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-23" data-count="0"><title>No contributions on May 23rd.</title></rect>
+<rect class="day" x="418" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-24" data-count="0"><title>No contributions on May 24th.</title></rect>
+<rect class="day" x="418" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-25" data-count="3"><title>3 contributions on May 25th.</title></rect>
+<rect class="day" x="418" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-05-26" data-count="0"><title>No contributions on May 26th.</title></rect>
+<rect class="day" x="418" y="79" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-27" data-count="5"><title>5 contributions on May 27th.</title></rect>
+<rect class="day" x="418" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-28" data-count="4"><title>4 contributions on May 28th.</title></rect>
+<rect class="day" x="418" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-29" data-count="4"><title>4 contributions on May 29th.</title></rect>
+<rect class="day" x="418" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-05-30" data-count="4"><title>4 contributions on May 30th.</title></rect>
+<rect class="day" x="431" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-05-31" data-count="2"><title>2 contributions on May 31st.</title></rect>
+<rect class="day" x="431" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-01" data-count="0"><title>No contributions on June 1st.</title></rect>
+<rect class="day" x="431" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-02" data-count="11"><title>11 contributions on June 2nd.</title></rect>
+<rect class="day" x="431" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-03" data-count="12"><title>12 contributions on June 3rd.</title></rect>
+<rect class="day" x="431" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-06-04" data-count="3"><title>3 contributions on June 4th.</title></rect>
+<rect class="day" x="431" y="105" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-05" data-count="0"><title>No contributions on June 5th.</title></rect>
+<rect class="day" x="431" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-06" data-count="6"><title>6 contributions on June 6th.</title></rect>
+<rect class="day" x="444" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-07" data-count="0"><title>No contributions on June 7th.</title></rect>
+<rect class="day" x="444" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-08" data-count="7"><title>7 contributions on June 8th.</title></rect>
+<rect class="day" x="444" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-09" data-count="8"><title>8 contributions on June 9th.</title></rect>
+<rect class="day" x="444" y="79" width="10" height="10" rx="2" fill="#006d32" data-date="2026-06-10" data-count="4"><title>4 contributions on June 10th.</title></rect>
+<rect class="day" x="444" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-06-11" data-count="3"><title>3 contributions on June 11th.</title></rect>
+<rect class="day" x="444" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-06-12" data-count="3"><title>3 contributions on June 12th.</title></rect>
+<rect class="day" x="444" y="118" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-13" data-count="13"><title>13 contributions on June 13th.</title></rect>
+<rect class="day" x="457" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-06-14" data-count="1"><title>1 contribution on June 14th.</title></rect>
+<rect class="day" x="457" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-15" data-count="8"><title>8 contributions on June 15th.</title></rect>
+<rect class="day" x="457" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-16" data-count="6"><title>6 contributions on June 16th.</title></rect>
+<rect class="day" x="457" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-17" data-count="17"><title>17 contributions on June 17th.</title></rect>
+<rect class="day" x="457" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-18" data-count="6"><title>6 contributions on June 18th.</title></rect>
+<rect class="day" x="457" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-19" data-count="11"><title>11 contributions on June 19th.</title></rect>
+<rect class="day" x="457" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-06-20" data-count="2"><title>2 contributions on June 20th.</title></rect>
+<rect class="day" x="470" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-21" data-count="0"><title>No contributions on June 21st.</title></rect>
+<rect class="day" x="470" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-22" data-count="14"><title>14 contributions on June 22nd.</title></rect>
+<rect class="day" x="470" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-23" data-count="38"><title>38 contributions on June 23rd.</title></rect>
+<rect class="day" x="470" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-24" data-count="40"><title>40 contributions on June 24th.</title></rect>
+<rect class="day" x="470" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-25" data-count="15"><title>15 contributions on June 25th.</title></rect>
+<rect class="day" x="470" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-26" data-count="20"><title>20 contributions on June 26th.</title></rect>
+<rect class="day" x="470" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-06-27" data-count="9"><title>9 contributions on June 27th.</title></rect>
+<rect class="day" x="483" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-28" data-count="0"><title>No contributions on June 28th.</title></rect>
+<rect class="day" x="483" y="53" width="10" height="10" rx="2" fill="#161b22" data-date="2026-06-29" data-count="0"><title>No contributions on June 29th.</title></rect>
+<rect class="day" x="483" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-06-30" data-count="18"><title>18 contributions on June 30th.</title></rect>
+<rect class="day" x="483" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-01" data-count="14"><title>14 contributions on July 1st.</title></rect>
+<rect class="day" x="483" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-07-02" data-count="5"><title>5 contributions on July 2nd.</title></rect>
+<rect class="day" x="483" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-03" data-count="18"><title>18 contributions on July 3rd.</title></rect>
+<rect class="day" x="483" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-04" data-count="0"><title>No contributions on July 4th.</title></rect>
+<rect class="day" x="496" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-05" data-count="0"><title>No contributions on July 5th.</title></rect>
+<rect class="day" x="496" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-06" data-count="36"><title>36 contributions on July 6th.</title></rect>
+<rect class="day" x="496" y="66" width="10" height="10" rx="2" fill="#26a641" data-date="2026-07-07" data-count="8"><title>8 contributions on July 7th.</title></rect>
+<rect class="day" x="496" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-08" data-count="41"><title>41 contributions on July 8th.</title></rect>
+<rect class="day" x="496" y="92" width="10" height="10" rx="2" fill="#006d32" data-date="2026-07-09" data-count="4"><title>4 contributions on July 9th.</title></rect>
+<rect class="day" x="496" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-07-10" data-count="7"><title>7 contributions on July 10th.</title></rect>
+<rect class="day" x="496" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-07-11" data-count="3"><title>3 contributions on July 11th.</title></rect>
+<rect class="day" x="509" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-12" data-count="0"><title>No contributions on July 12th.</title></rect>
+<rect class="day" x="509" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-07-13" data-count="5"><title>5 contributions on July 13th.</title></rect>
+<rect class="day" x="509" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-14" data-count="0"><title>No contributions on July 14th.</title></rect>
+<rect class="day" x="509" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-07-15" data-count="12"><title>12 contributions on July 15th.</title></rect>
+<rect class="day" x="509" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-16" data-count="0"><title>No contributions on July 16th.</title></rect>
+<rect class="day" x="509" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-17" data-count="29"><title>29 contributions on July 17th.</title></rect>
+<rect class="day" x="509" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-18" data-count="0"><title>No contributions on July 18th.</title></rect>
+<rect class="day" x="522" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-07-19" data-count="2"><title>2 contributions on July 19th.</title></rect>
+<rect class="day" x="522" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-20" data-count="29"><title>29 contributions on July 20th.</title></rect>
+<rect class="day" x="522" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-21" data-count="25"><title>25 contributions on July 21st.</title></rect>
+<rect class="day" x="522" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-22" data-count="27"><title>27 contributions on July 22nd.</title></rect>
+<rect class="day" x="522" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-23" data-count="0"><title>No contributions on July 23rd.</title></rect>
+<rect class="day" x="522" y="105" width="10" height="10" rx="2" fill="#26a641" data-date="2026-07-24" data-count="7"><title>7 contributions on July 24th.</title></rect>
+<rect class="day" x="522" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-25" data-count="0"><title>No contributions on July 25th.</title></rect>
+<rect class="day" x="535" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-26" data-count="0"><title>No contributions on July 26th.</title></rect>
+<rect class="day" x="535" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-27" data-count="16"><title>16 contributions on July 27th.</title></rect>
+<rect class="day" x="535" y="66" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-28" data-count="0"><title>No contributions on July 28th.</title></rect>
+<rect class="day" x="535" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-07-29" data-count="0"><title>No contributions on July 29th.</title></rect>
+<rect class="day" x="535" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-30" data-count="29"><title>29 contributions on July 30th.</title></rect>
+<rect class="day" x="535" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-07-31" data-count="23"><title>23 contributions on July 31st.</title></rect>
+<rect class="day" x="535" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-08-01" data-count="0"><title>No contributions on August 1st.</title></rect>
+<rect class="day" x="548" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-08-02" data-count="1"><title>1 contribution on August 2nd.</title></rect>
+<rect class="day" x="548" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-03" data-count="28"><title>28 contributions on August 3rd.</title></rect>
+<rect class="day" x="548" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-04" data-count="19"><title>19 contributions on August 4th.</title></rect>
+<rect class="day" x="548" y="79" width="10" height="10" rx="2" fill="#161b22" data-date="2026-08-05" data-count="0"><title>No contributions on August 5th.</title></rect>
+<rect class="day" x="548" y="92" width="10" height="10" rx="2" fill="#161b22" data-date="2026-08-06" data-count="0"><title>No contributions on August 6th.</title></rect>
+<rect class="day" x="548" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-07" data-count="27"><title>27 contributions on August 7th.</title></rect>
+<rect class="day" x="548" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-08-08" data-count="3"><title>3 contributions on August 8th.</title></rect>
+<rect class="day" x="561" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-08-09" data-count="0"><title>No contributions on August 9th.</title></rect>
+<rect class="day" x="561" y="53" width="10" height="10" rx="2" fill="#006d32" data-date="2026-08-10" data-count="4"><title>4 contributions on August 10th.</title></rect>
+<rect class="day" x="561" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-11" data-count="18"><title>18 contributions on August 11th.</title></rect>
+<rect class="day" x="561" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-12" data-count="24"><title>24 contributions on August 12th.</title></rect>
+<rect class="day" x="561" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-13" data-count="30"><title>30 contributions on August 13th.</title></rect>
+<rect class="day" x="561" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-14" data-count="20"><title>20 contributions on August 14th.</title></rect>
+<rect class="day" x="561" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-08-15" data-count="8"><title>8 contributions on August 15th.</title></rect>
+<rect class="day" x="574" y="40" width="10" height="10" rx="2" fill="#26a641" data-date="2026-08-16" data-count="11"><title>11 contributions on August 16th.</title></rect>
+<rect class="day" x="574" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-17" data-count="26"><title>26 contributions on August 17th.</title></rect>
+<rect class="day" x="574" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-18" data-count="19"><title>19 contributions on August 18th.</title></rect>
+<rect class="day" x="574" y="79" width="10" height="10" rx="2" fill="#26a641" data-date="2026-08-19" data-count="11"><title>11 contributions on August 19th.</title></rect>
+<rect class="day" x="574" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-20" data-count="23"><title>23 contributions on August 20th.</title></rect>
+<rect class="day" x="574" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-21" data-count="19"><title>19 contributions on August 21st.</title></rect>
+<rect class="day" x="574" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-08-22" data-count="5"><title>5 contributions on August 22nd.</title></rect>
+<rect class="day" x="587" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-08-23" data-count="0"><title>No contributions on August 23rd.</title></rect>
+<rect class="day" x="587" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-24" data-count="36"><title>36 contributions on August 24th.</title></rect>
+<rect class="day" x="587" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-25" data-count="24"><title>24 contributions on August 25th.</title></rect>
+<rect class="day" x="587" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-26" data-count="29"><title>29 contributions on August 26th.</title></rect>
+<rect class="day" x="587" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-27" data-count="34"><title>34 contributions on August 27th.</title></rect>
+<rect class="day" x="587" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-28" data-count="19"><title>19 contributions on August 28th.</title></rect>
+<rect class="day" x="587" y="118" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-29" data-count="37"><title>37 contributions on August 29th.</title></rect>
+<rect class="day" x="600" y="40" width="10" height="10" rx="2" fill="#006d32" data-date="2026-08-30" data-count="4"><title>4 contributions on August 30th.</title></rect>
+<rect class="day" x="600" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-08-31" data-count="33"><title>33 contributions on August 31st.</title></rect>
+<rect class="day" x="600" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-01" data-count="31"><title>31 contributions on September 1st.</title></rect>
+<rect class="day" x="600" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-02" data-count="51"><title>51 contributions on September 2nd.</title></rect>
+<rect class="day" x="600" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-03" data-count="80"><title>80 contributions on September 3rd.</title></rect>
+<rect class="day" x="600" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-04" data-count="30"><title>30 contributions on September 4th.</title></rect>
+<rect class="day" x="600" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-09-05" data-count="9"><title>9 contributions on September 5th.</title></rect>
+<rect class="day" x="613" y="40" width="10" height="10" rx="2" fill="#26a641" data-date="2026-09-06" data-count="8"><title>8 contributions on September 6th.</title></rect>
+<rect class="day" x="613" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-07" data-count="41"><title>41 contributions on September 7th.</title></rect>
+<rect class="day" x="613" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-08" data-count="23"><title>23 contributions on September 8th.</title></rect>
+<rect class="day" x="613" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-09" data-count="62"><title>62 contributions on September 9th.</title></rect>
+<rect class="day" x="613" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-09-10" data-count="12"><title>12 contributions on September 10th.</title></rect>
+<rect class="day" x="613" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-11" data-count="20"><title>20 contributions on September 11th.</title></rect>
+<rect class="day" x="613" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-09-12" data-count="0"><title>No contributions on September 12th.</title></rect>
+<rect class="day" x="626" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-09-13" data-count="2"><title>2 contributions on September 13th.</title></rect>
+<rect class="day" x="626" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-14" data-count="15"><title>15 contributions on September 14th.</title></rect>
+<rect class="day" x="626" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-15" data-count="33"><title>33 contributions on September 15th.</title></rect>
+<rect class="day" x="626" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-16" data-count="20"><title>20 contributions on September 16th.</title></rect>
+<rect class="day" x="626" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-17" data-count="46"><title>46 contributions on September 17th.</title></rect>
+<rect class="day" x="626" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-18" data-count="53"><title>53 contributions on September 18th.</title></rect>
+<rect class="day" x="626" y="118" width="10" height="10" rx="2" fill="#006d32" data-date="2026-09-19" data-count="4"><title>4 contributions on September 19th.</title></rect>
+<rect class="day" x="639" y="40" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-09-20" data-count="2"><title>2 contributions on September 20th.</title></rect>
+<rect class="day" x="639" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-21" data-count="17"><title>17 contributions on September 21st.</title></rect>
+<rect class="day" x="639" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-22" data-count="25"><title>25 contributions on September 22nd.</title></rect>
+<rect class="day" x="639" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-23" data-count="39"><title>39 contributions on September 23rd.</title></rect>
+<rect class="day" x="639" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-24" data-count="30"><title>30 contributions on September 24th.</title></rect>
+<rect class="day" x="639" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-25" data-count="18"><title>18 contributions on September 25th.</title></rect>
+<rect class="day" x="639" y="118" width="10" height="10" rx="2" fill="#26a641" data-date="2026-09-26" data-count="9"><title>9 contributions on September 26th.</title></rect>
+<rect class="day" x="652" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-09-27" data-count="0"><title>No contributions on September 27th.</title></rect>
+<rect class="day" x="652" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-28" data-count="15"><title>15 contributions on September 28th.</title></rect>
+<rect class="day" x="652" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-29" data-count="28"><title>28 contributions on September 29th.</title></rect>
+<rect class="day" x="652" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-09-30" data-count="34"><title>34 contributions on September 30th.</title></rect>
+<rect class="day" x="652" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-10-01" data-count="6"><title>6 contributions on October 1st.</title></rect>
+<rect class="day" x="652" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-02" data-count="23"><title>23 contributions on October 2nd.</title></rect>
+<rect class="day" x="652" y="118" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-03" data-count="14"><title>14 contributions on October 3rd.</title></rect>
+<rect class="day" x="665" y="40" width="10" height="10" rx="2" fill="#26a641" data-date="2026-10-04" data-count="6"><title>6 contributions on October 4th.</title></rect>
+<rect class="day" x="665" y="53" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-10-05" data-count="2"><title>2 contributions on October 5th.</title></rect>
+<rect class="day" x="665" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-06" data-count="31"><title>31 contributions on October 6th.</title></rect>
+<rect class="day" x="665" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-07" data-count="33"><title>33 contributions on October 7th.</title></rect>
+<rect class="day" x="665" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-08" data-count="17"><title>17 contributions on October 8th.</title></rect>
+<rect class="day" x="665" y="105" width="10" height="10" rx="2" fill="#006d32" data-date="2026-10-09" data-count="3"><title>3 contributions on October 9th.</title></rect>
+<rect class="day" x="665" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-10-10" data-count="0"><title>No contributions on October 10th.</title></rect>
+<rect class="day" x="678" y="40" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-11" data-count="22"><title>22 contributions on October 11th.</title></rect>
+<rect class="day" x="678" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-10-12" data-count="11"><title>11 contributions on October 12th.</title></rect>
+<rect class="day" x="678" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-13" data-count="64"><title>64 contributions on October 13th.</title></rect>
+<rect class="day" x="678" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-14" data-count="60"><title>60 contributions on October 14th.</title></rect>
+<rect class="day" x="678" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-15" data-count="59"><title>59 contributions on October 15th.</title></rect>
+<rect class="day" x="678" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-16" data-count="48"><title>48 contributions on October 16th.</title></rect>
+<rect class="day" x="678" y="118" width="10" height="10" rx="2" fill="#161b22" data-date="2026-10-17" data-count="0"><title>No contributions on October 17th.</title></rect>
+<rect class="day" x="691" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-10-18" data-count="0"><title>No contributions on October 18th.</title></rect>
+<rect class="day" x="691" y="53" width="10" height="10" rx="2" fill="#26a641" data-date="2026-10-19" data-count="9"><title>9 contributions on October 19th.</title></rect>
+<rect class="day" x="691" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-20" data-count="29"><title>29 contributions on October 20th.</title></rect>
+<rect class="day" x="691" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-21" data-count="20"><title>20 contributions on October 21st.</title></rect>
+<rect class="day" x="691" y="92" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-22" data-count="17"><title>17 contributions on October 22nd.</title></rect>
+<rect class="day" x="691" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-23" data-count="35"><title>35 contributions on October 23rd.</title></rect>
+<rect class="day" x="691" y="118" width="10" height="10" rx="2" fill="#0e4429" data-date="2026-10-24" data-count="2"><title>2 contributions on October 24th.</title></rect>
+<rect class="day" x="704" y="40" width="10" height="10" rx="2" fill="#161b22" data-date="2026-10-25" data-count="0"><title>No contributions on October 25th.</title></rect>
+<rect class="day" x="704" y="53" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-26" data-count="35"><title>35 contributions on October 26th.</title></rect>
+<rect class="day" x="704" y="66" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-27" data-count="19"><title>19 contributions on October 27th.</title></rect>
+<rect class="day" x="704" y="79" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-28" data-count="44"><title>44 contributions on October 28th.</title></rect>
+<rect class="day" x="704" y="92" width="10" height="10" rx="2" fill="#26a641" data-date="2026-10-29" data-count="9"><title>9 contributions on October 29th.</title></rect>
+<rect class="day" x="704" y="105" width="10" height="10" rx="2" fill="#39d353" data-date="2026-10-30" data-count="17"><title>17 contributions on October 30th.</title></rect>
 
-  
-  <circle r="3.5" fill="#f0f9ff" opacity="0.95"><animateMotion dur="24s" repeatCount="indefinite" path="M41.5,53.5 L41.5,67.5 L41.5,95.5 L41.5,109.5 L55.5,53.5 L55.5,81.5 L55.5,95.5 L55.5,137.5 L69.5,53.5 L83.5,123.5 L83.5,137.5 L97.5,53.5 L97.5,81.5 L97.5,123.5 L97.5,137.5 L111.5,53.5 L111.5,81.5 L111.5,109.5 L111.5,123.5 L111.5,137.5 L125.5,53.5 L125.5,67.5 L125.5,81.5 L125.5,95.5 L125.5,123.5 L139.5,109.5 L139.5,123.5 L153.5,53.5 L153.5,67.5 L153.5,81.5 L153.5,95.5 L153.5,109.5 L153.5,137.5 L167.5,53.5 L167.5,67.5 L237.5,95.5 L237.5,109.5 L251.5,53.5 L251.5,67.5 L251.5,81.5 L251.5,95.5 L251.5,109.5 L251.5,123.5 L251.5,137.5 L265.5,53.5 L265.5,67.5 L265.5,81.5 L265.5,95.5 L265.5,109.5 L265.5,123.5 L265.5,137.5 L279.5,67.5 L279.5,81.5 L279.5,95.5 L279.5,109.5 L279.5,123.5 L293.5,53.5 L293.5,67.5 L293.5,81.5 L293.5,95.5 L293.5,109.5 L293.5,123.5 L293.5,137.5 L307.5,53.5 L307.5,67.5 L307.5,81.5 L307.5,95.5 L307.5,109.5 L307.5,123.5 L307.5,137.5 L321.5,53.5 L321.5,67.5 L321.5,81.5 L321.5,137.5 L335.5,81.5 L335.5,95.5 L335.5,109.5 L335.5,123.5 L349.5,53.5 L349.5,67.5 L349.5,81.5 L349.5,95.5 L349.5,109.5 L349.5,123.5 L349.5,137.5 L363.5,53.5 L363.5,67.5 L363.5,123.5 L363.5,137.5 L377.5,123.5 L377.5,137.5 L391.5,53.5 L391.5,67.5 L391.5,81.5 L391.5,95.5 L391.5,109.5 L405.5,67.5 L405.5,81.5 L405.5,95.5 L405.5,109.5 L405.5,137.5 L419.5,53.5 L419.5,81.5 L419.5,109.5 L419.5,123.5 L419.5,137.5 L433.5,67.5 L433.5,81.5 L433.5,95.5 L433.5,109.5 L447.5,53.5 L447.5,81.5 L447.5,109.5 L461.5,67.5 L461.5,95.5 L461.5,109.5 L461.5,123.5 L461.5,137.5 L475.5,53.5 L475.5,81.5 L475.5,95.5 L475.5,109.5 L475.5,137.5 L489.5,67.5 L489.5,81.5 L489.5,95.5 L489.5,109.5 L489.5,123.5 L489.5,137.5 L503.5,53.5 L503.5,67.5 L503.5,81.5 L503.5,95.5 L503.5,109.5 L503.5,123.5 L503.5,137.5 L517.5,67.5 L517.5,81.5 L517.5,95.5 L517.5,109.5 L517.5,123.5 L517.5,137.5 L531.5,81.5 L531.5,95.5 L531.5,109.5 L531.5,123.5 L545.5,67.5 L545.5,81.5 L545.5,95.5 L545.5,109.5 L545.5,123.5 L545.5,137.5 L559.5,67.5 L559.5,95.5 L559.5,123.5 L573.5,53.5 L573.5,67.5 L573.5,81.5 L573.5,95.5 L573.5,123.5 L587.5,67.5 L587.5,109.5 L587.5,123.5 L601.5,53.5 L601.5,67.5 L601.5,81.5 L601.5,123.5 L601.5,137.5 L615.5,67.5 L615.5,81.5 L615.5,95.5 L615.5,109.5 L615.5,123.5 L615.5,137.5 L629.5,53.5 L629.5,67.5 L629.5,81.5 L629.5,95.5 L629.5,109.5 L629.5,123.5 L629.5,137.5 L643.5,67.5 L643.5,81.5 L643.5,95.5 L643.5,109.5 L643.5,123.5 L643.5,137.5 L657.5,53.5 L657.5,67.5 L657.5,81.5 L657.5,95.5 L657.5,109.5 L657.5,123.5 L657.5,137.5 L671.5,53.5 L671.5,67.5 L671.5,81.5 L671.5,95.5 L671.5,109.5 L671.5,123.5 L685.5,53.5 L685.5,67.5 L685.5,81.5 L685.5,95.5 L685.5,109.5 L685.5,123.5 L685.5,137.5 L699.5,53.5 L699.5,67.5 L699.5,81.5 L699.5,95.5 L699.5,109.5 L699.5,123.5 L699.5,137.5 L713.5,67.5 L713.5,81.5 L713.5,95.5 L713.5,109.5 L713.5,123.5 L713.5,137.5 L727.5,53.5 L727.5,67.5 L727.5,81.5 L727.5,95.5 L727.5,109.5 L727.5,123.5 L741.5,53.5 L741.5,67.5 L741.5,81.5 L741.5,95.5 L741.5,109.5 L741.5,123.5 L755.5,67.5 L755.5,81.5 L755.5,95.5 L755.5,109.5 L755.5,123.5 L755.5,137.5 L769.5,67.5 L769.5,81.5 L769.5,95.5 L769.5,109.5 L769.5,123.5"/></circle>
-  <circle r="8" fill="#0ea5e9" opacity="0.25"><animateMotion dur="24s" repeatCount="indefinite" path="M41.5,53.5 L41.5,67.5 L41.5,95.5 L41.5,109.5 L55.5,53.5 L55.5,81.5 L55.5,95.5 L55.5,137.5 L69.5,53.5 L83.5,123.5 L83.5,137.5 L97.5,53.5 L97.5,81.5 L97.5,123.5 L97.5,137.5 L111.5,53.5 L111.5,81.5 L111.5,109.5 L111.5,123.5 L111.5,137.5 L125.5,53.5 L125.5,67.5 L125.5,81.5 L125.5,95.5 L125.5,123.5 L139.5,109.5 L139.5,123.5 L153.5,53.5 L153.5,67.5 L153.5,81.5 L153.5,95.5 L153.5,109.5 L153.5,137.5 L167.5,53.5 L167.5,67.5 L237.5,95.5 L237.5,109.5 L251.5,53.5 L251.5,67.5 L251.5,81.5 L251.5,95.5 L251.5,109.5 L251.5,123.5 L251.5,137.5 L265.5,53.5 L265.5,67.5 L265.5,81.5 L265.5,95.5 L265.5,109.5 L265.5,123.5 L265.5,137.5 L279.5,67.5 L279.5,81.5 L279.5,95.5 L279.5,109.5 L279.5,123.5 L293.5,53.5 L293.5,67.5 L293.5,81.5 L293.5,95.5 L293.5,109.5 L293.5,123.5 L293.5,137.5 L307.5,53.5 L307.5,67.5 L307.5,81.5 L307.5,95.5 L307.5,109.5 L307.5,123.5 L307.5,137.5 L321.5,53.5 L321.5,67.5 L321.5,81.5 L321.5,137.5 L335.5,81.5 L335.5,95.5 L335.5,109.5 L335.5,123.5 L349.5,53.5 L349.5,67.5 L349.5,81.5 L349.5,95.5 L349.5,109.5 L349.5,123.5 L349.5,137.5 L363.5,53.5 L363.5,67.5 L363.5,123.5 L363.5,137.5 L377.5,123.5 L377.5,137.5 L391.5,53.5 L391.5,67.5 L391.5,81.5 L391.5,95.5 L391.5,109.5 L405.5,67.5 L405.5,81.5 L405.5,95.5 L405.5,109.5 L405.5,137.5 L419.5,53.5 L419.5,81.5 L419.5,109.5 L419.5,123.5 L419.5,137.5 L433.5,67.5 L433.5,81.5 L433.5,95.5 L433.5,109.5 L447.5,53.5 L447.5,81.5 L447.5,109.5 L461.5,67.5 L461.5,95.5 L461.5,109.5 L461.5,123.5 L461.5,137.5 L475.5,53.5 L475.5,81.5 L475.5,95.5 L475.5,109.5 L475.5,137.5 L489.5,67.5 L489.5,81.5 L489.5,95.5 L489.5,109.5 L489.5,123.5 L489.5,137.5 L503.5,53.5 L503.5,67.5 L503.5,81.5 L503.5,95.5 L503.5,109.5 L503.5,123.5 L503.5,137.5 L517.5,67.5 L517.5,81.5 L517.5,95.5 L517.5,109.5 L517.5,123.5 L517.5,137.5 L531.5,81.5 L531.5,95.5 L531.5,109.5 L531.5,123.5 L545.5,67.5 L545.5,81.5 L545.5,95.5 L545.5,109.5 L545.5,123.5 L545.5,137.5 L559.5,67.5 L559.5,95.5 L559.5,123.5 L573.5,53.5 L573.5,67.5 L573.5,81.5 L573.5,95.5 L573.5,123.5 L587.5,67.5 L587.5,109.5 L587.5,123.5 L601.5,53.5 L601.5,67.5 L601.5,81.5 L601.5,123.5 L601.5,137.5 L615.5,67.5 L615.5,81.5 L615.5,95.5 L615.5,109.5 L615.5,123.5 L615.5,137.5 L629.5,53.5 L629.5,67.5 L629.5,81.5 L629.5,95.5 L629.5,109.5 L629.5,123.5 L629.5,137.5 L643.5,67.5 L643.5,81.5 L643.5,95.5 L643.5,109.5 L643.5,123.5 L643.5,137.5 L657.5,53.5 L657.5,67.5 L657.5,81.5 L657.5,95.5 L657.5,109.5 L657.5,123.5 L657.5,137.5 L671.5,53.5 L671.5,67.5 L671.5,81.5 L671.5,95.5 L671.5,109.5 L671.5,123.5 L685.5,53.5 L685.5,67.5 L685.5,81.5 L685.5,95.5 L685.5,109.5 L685.5,123.5 L685.5,137.5 L699.5,53.5 L699.5,67.5 L699.5,81.5 L699.5,95.5 L699.5,109.5 L699.5,123.5 L699.5,137.5 L713.5,67.5 L713.5,81.5 L713.5,95.5 L713.5,109.5 L713.5,123.5 L713.5,137.5 L727.5,53.5 L727.5,67.5 L727.5,81.5 L727.5,95.5 L727.5,109.5 L727.5,123.5 L741.5,53.5 L741.5,67.5 L741.5,81.5 L741.5,95.5 L741.5,109.5 L741.5,123.5 L755.5,67.5 L755.5,81.5 L755.5,95.5 L755.5,109.5 L755.5,123.5 L755.5,137.5 L769.5,67.5 L769.5,81.5 L769.5,95.5 L769.5,109.5 L769.5,123.5"/></circle>
-  <text x="648" y="184" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Less</text>
-  <rect x="676" y="174" width="11" height="11" rx="2" fill="#161b22"/><rect x="690" y="174" width="11" height="11" rx="2" fill="#0e3a5a"/><rect x="704" y="174" width="11" height="11" rx="2" fill="#0369a1"/><rect x="718" y="174" width="11" height="11" rx="2" fill="#0ea5e9"/><rect x="732" y="174" width="11" height="11" rx="2" fill="#7dd3fc"/>
-  <text x="788" y="184" fill="#475569" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">More</text>
+  <text x="12" y="159" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11">Private + public · custom count</text>
+  <text x="598" y="159" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11">Less</text>
+  <rect x="628" y="149" width="10" height="10" rx="2" fill="#161b22"/><rect x="641" y="149" width="10" height="10" rx="2" fill="#0e4429"/><rect x="654" y="149" width="10" height="10" rx="2" fill="#006d32"/><rect x="667" y="149" width="10" height="10" rx="2" fill="#26a641"/><rect x="680" y="149" width="10" height="10" rx="2" fill="#39d353"/>
+  <text x="718" y="159" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11">More</text>
 </svg>
