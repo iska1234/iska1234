@@ -5,7 +5,7 @@
   </defs>
   <rect width="620" height="418" rx="16" fill="url(#bg)" stroke="#1e293b"/>
   <text x="40" y="34" fill="#e2e8f0" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16" font-weight="700">Shipping · last 12 months</text>
-  <text x="40" y="54" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">70 repos · 69 private · 1 public · real push dates</text>
+  <text x="40" y="54" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">70 systems · 69 closed-source · 1 open · push cadence</text>
 <rect x="40" y="165" width="41" height="10" rx="5" fill="url(#bar)" opacity="0.48"/>
 <text x="60.5" y="193" text-anchor="middle" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Nov</text>
 <text x="60.5" y="159" text-anchor="middle" fill="#7dd3fc" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">1</text>
@@ -40,14 +40,14 @@
 <text x="550.5" y="193" text-anchor="middle" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">Oct</text>
 <text x="550.5" y="49" text-anchor="middle" fill="#7dd3fc" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">21</text>
 
-  <text x="40" y="218" fill="#94a3b8" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="600">Recent pushes</text>
-<text x="40" y="230" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#86efac">public </tspan>  iska1234<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="250" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  ss-digital-labs<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="270" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  starsoftcrm-back<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="290" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  starsoftcrm-front<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="310" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  zaltocrm-back<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="330" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  backoffice_front_test<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="350" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  abatarcrm_backoffice_tickets<tspan fill="#475569">  · 2026-10-30</tspan></text>
-<text x="40" y="370" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">private</tspan>  portfolio_sunmie_web<tspan fill="#475569">  · 2026-10-30</tspan></text>
+  <text x="40" y="218" fill="#94a3b8" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="600">Recent deploys / pushes</text>
+<text x="40" y="230" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#86efac">open  </tspan>  GitHub Profile · README<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="250" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  SS Digital Labs · Marketing Web<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="270" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Starsoft CRM · REST API<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="290" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Starsoft CRM · SPA<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="310" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Zalto CRM · REST API<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="330" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Abatar Backoffice · SPA<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="350" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Abatar Helpdesk · Tickets UI<tspan fill="#475569">  · 2026-10-30</tspan></text>
+<text x="40" y="370" fill="#cbd5e1" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12"><tspan fill="#38bdf8">closed</tspan>  Sunmie Portfolio · Web<tspan fill="#475569">  · 2026-10-30</tspan></text>
 
 </svg>
