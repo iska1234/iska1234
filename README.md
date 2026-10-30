@@ -86,19 +86,19 @@
 
 ## `$ git log --since="1 year ago"` · Activity
 
-**Tu actividad es tuya.** Este heatmap = commits con author `iska1234` (privados incluidos) → **6,343** / 12 meses.
-El calendario nativo de GitHub debajo del README usa otra regla y hoy marca **8** en [github.com/iska1234](https://github.com/iska1234) — no niega tu trabajo; solo no lo atribuye igual.
+**6,343 commits** · `iska1234` · privados incluidos · brand SS Digital Labs  
+Courier animado en el SVG. Click → tooltips.
 
 <p align="center">
-  <a href="https://iska1234.github.io/iska1234/contrib.html" title="Interactive commit heatmap">
-    <img src="assets/contrib-year.svg" width="900" alt="6,343 commits authored by iska1234 in the last year" />
+  <a href="https://iska1234.github.io/iska1234/contrib.html">
+    <img src="assets/contrib-year.svg" width="920" alt="6,343 commits authored by iska1234 — SS Digital Labs" />
   </a>
 </p>
 
-<p align="center"><sub><a href="https://iska1234.github.io/iska1234/contrib.html">Interactive tooltips</a></sub></p>
+<p align="center"><sub><a href="https://iska1234.github.io/iska1234/contrib.html">Open interactive grid</a></sub></p>
 
 <p align="center">
-  <img src="assets/shipping-year.svg" width="620" alt="Shipping activity last 12 months" />
+  <img src="assets/shipping-year.svg" width="620" alt="Shipping activity" />
 </p>
 
 <p align="center">
@@ -106,10 +106,8 @@ El calendario nativo de GitHub debajo del README usa otra regla y hoy marca **8*
 </p>
 
 <p align="center">
-  <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9" alt="GitHub streak" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=037bdc&fire=07bef3&currStreakLabel=07bef3" alt="GitHub streak" />
 </p>
-
-<p align="center"><sub><code>signals: contrib_year · shipping_year · top_langs · streak</code></sub></p>
 
 ## `$ connect --socials`
 
