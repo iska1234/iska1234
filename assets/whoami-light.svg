@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="280" rx="16" fill="url(#bg)" stroke="#cbd5e1"/>
+  <circle cx="28" cy="28" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="28" r="6" fill="#eab308"/>
+  <circle cx="68" cy="28" r="6" fill="#22c55e"/>
+  <text x="96" y="33" fill="#64748b" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13">whoami  sadhu@ss-digital-labs</text>
+  <text x="36" y="78" fill="#0369a1" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">$ whoami</text>
+  <text x="36" y="108" fill="#0f172a" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">Sadhu Isaac Cavero Egusquiza Huilca · Full-stack Engineer</text>
+  <text x="36" y="140" fill="#0369a1" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">$ cat role.txt</text>
+  <text x="36" y="170" fill="#0f172a" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">Cofounder @ SS Digital Labs · building product systems</text>
+  <text x="36" y="202" fill="#0369a1" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">$ echo $FOCUS</text>
+  <text x="36" y="232" fill="#0f172a" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15">AI agents · CRM/ERP · WhatsApp ops · web + APIs + mobile</text>
+  <text x="36" y="262" fill="#64748b" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13">locale: ES/EN · base: Perú · status: shipping</text>
+</svg>
