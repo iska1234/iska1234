@@ -86,26 +86,37 @@
 
 ## `$ git log --since="1 year ago"` · Activity
 
-Most shipping happens in **private** repos. The graph / snake below reflect **public + private** contributions once GitHub profile setting is on.
+Most shipping is in **private** repos — GitHub’s public heatmap stays thin.  
+These cards are **self-hosted SVGs** from your real push history (69 private / 1 public touched this year).
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/0ea5e9/iska1234" width="900" alt="GitHub contributions chart (year)" />
+  <img src="assets/shipping-year.svg" width="620" alt="Shipping activity last 12 months including private repos" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iska1234&bg_color=0b1220&color=7dd3fc&line=0ea5e9&point=38bdf8&area=true&hide_border=true&custom_title=iska1234%20%C2%B7%2012-month%20activity" width="900" alt="12-month activity graph" />
+  <img src="assets/top-langs.svg" width="620" alt="Top languages across all repos including private" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=transparent&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9&sideLabels=94a3b8&dates=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0" alt="GitHub streak" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iska1234&layout=compact&theme=transparent&hide_border=true&title_color=0ea5e9&text_color=c9d1d9&bg_color=00000000" alt="Top languages" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9" alt="GitHub streak" />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/iska1234/iska1234/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution animation" />
 </p>
 
-<p align="center"><sub><code>signals: year_chart · activity_graph · streak · snake · private_contribs: on_profile</code></sub></p>
+<p align="center"><sub><code>signals: shipping_year · top_langs · streak · snake</code></sub></p>
+
+<details>
+<summary><code>$ fix contrib graph</code> — make GitHub heatmap / snake fill up</summary>
+
+1. [Add & verify](https://github.com/settings/emails) commit email `sadhuisaac1@gmail.com` (must match `git config user.email`).
+2. Profile → **Include private contributions on my profile**: https://github.com/settings/profile  
+3. Optional: also use `noreply` — `119825666+iska1234@users.noreply.github.com`
+
+Until email is verified on the account, private pushes **do not** paint the green/blue squares (even though repos are active).
+
+</details>
 
 ---
 

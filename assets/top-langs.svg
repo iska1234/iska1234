@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="304" viewBox="0 0 620 304" role="img">
+  <rect width="620" height="304" rx="16" fill="#0b1220" stroke="#1e293b"/>
+  <text x="40" y="36" fill="#7dd3fc" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14">$ top-langs --all-repos</text>
+  <text x="40" y="54" fill="#64748b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">includes private · generated 2026-10-30</text>
+<rect x='40' y='70' width='330' height='22' rx='6' fill='#3178C6'/>
+<text x='48' y='85' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>TypeScript</text>
+<text x='580' y='85' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>63.5%</text>
+<rect x='40' y='104' width='111' height='22' rx='6' fill='#F7DF1E'/>
+<text x='48' y='119' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>JavaScript</text>
+<text x='580' y='119' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>21.4%</text>
+<rect x='40' y='138' width='49' height='22' rx='6' fill='#E34F26'/>
+<text x='48' y='153' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>HTML</text>
+<text x='580' y='153' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>9.4%</text>
+<rect x='40' y='172' width='11' height='22' rx='6' fill='#F05340'/>
+<text x='48' y='187' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>Blade</text>
+<text x='580' y='187' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>2.1%</text>
+<rect x='40' y='206' width='11' height='22' rx='6' fill='#1572B6'/>
+<text x='48' y='221' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>CSS</text>
+<text x='580' y='221' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>2.1%</text>
+<rect x='40' y='240' width='8' height='22' rx='6' fill='#ED8B00'/>
+<text x='48' y='255' fill='#ffffff' font-family='ui-sans-serif,system-ui,sans-serif' font-size='12' font-weight='700'>Java</text>
+<text x='580' y='255' text-anchor='end' fill='#94a3b8' font-family='ui-monospace,Menlo,Consolas,monospace' font-size='12'>1.6%</text>
+</svg>
