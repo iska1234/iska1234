@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -82,14 +83,16 @@ for (let t = start.getTime(); t <= end.getTime(); t += 864e5) {
 const total = Object.values(counts).reduce((a, b) => a + b, 0);
 let githubCalendarTotal = 0;
 try {
+  const q =
+    "query { viewer { contributionsCollection { contributionCalendar { totalContributions } } } }";
   githubCalendarTotal = Number(
     execSync(
-      'gh api graphql -f query=query{viewer{contributionsCollection{contributionCalendar{totalContributions}}}} --jq .data.viewer.contributionsCollection.contributionCalendar.totalContributions',
-      { encoding: "utf8" }
+      `gh api graphql -f query=${JSON.stringify(q)} --jq .data.viewer.contributionsCollection.contributionCalendar.totalContributions`,
+      { encoding: "utf8", shell: true }
     ).trim()
   );
 } catch {
-  githubCalendarTotal = 0;
+  githubCalendarTotal = Number(process.env.GH_CALENDAR_TOTAL || 0);
 }
 const activeDays = Object.keys(counts).length;
 const width = padL + weeks * step + 16;
