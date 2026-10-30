@@ -86,15 +86,19 @@
 
 ## `$ git log --since="1 year ago"` · Activity
 
-Custom heatmap — **commits reales** (public + private). No depende del calendario vacío de GitHub.  
-Courier animado (SMIL) recorre tus días activos.
+**Tooltip como GitHub:** el graph verde oficial vive *debajo* del README (UI nativa). Ahí el hover sí funciona.
+Para llenarlo con privados: verifica `sadhuisaac1@gmail.com` + *Include private contributions*.
+
+**Este heatmap custom** cuenta commits reales (público + privado). Dentro del README GitHub lo mete como `<img>` → **sin hover**.
+Click abre un clone visual con tooltip idéntico (“N contributions on Month Dayth.”).
 
 <p align="center">
-  <a href="https://iska1234.github.io/iska1234/contrib.html" title="Open interactive heatmap with commit tooltips">
-    <img src="assets/contrib-year.svg" width="900" alt="Custom contribution grid — click for interactive day tooltips" />
+  <a href="https://iska1234.github.io/iska1234/contrib.html" title="GitHub-style interactive contribution graph">
+    <img src="assets/contrib-year.svg" width="900" alt="contributions in the last year — click for GitHub-style day tooltips" />
   </a>
 </p>
-<p align="center"><sub>Hover tooltips: <a href="https://iska1234.github.io/iska1234/contrib.html">interactive grid</a> (README &lt;img&gt; cannot hover SVG cells).</sub></p>
+
+<p align="center"><sub><a href="https://iska1234.github.io/iska1234/contrib.html">Open interactive graph</a></sub></p>
 
 <p align="center">
   <img src="assets/shipping-year.svg" width="620" alt="Shipping activity last 12 months including private repos" />
@@ -108,9 +112,7 @@ Courier animado (SMIL) recorre tus días activos.
   <img height="165" src="https://streak-stats.demolab.com/?user=iska1234&theme=dark&hide_border=true&ring=0ea5e9&fire=38bdf8&currStreakLabel=0ea5e9" alt="GitHub streak" />
 </p>
 
-<p align="center"><sub><code>signals: contrib_year · shipping_year · top_langs · streak</code> · regenerate: <code>node scripts/gen-contrib-grid.mjs</code></sub></p>
-
----
+<p align="center"><sub><code>signals: contrib_year · shipping_year · top_langs · streak</code></sub></p>
 
 ## `$ connect --socials`
 
