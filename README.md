@@ -86,12 +86,12 @@
 
 ## `$ git log --since="1 year ago"` · Activity
 
-**Tu actividad es tuya.** Este heatmap = commits con author `iska1234` (privados incluidos) → **3,140** / 12 meses.
+**Tu actividad es tuya.** Este heatmap = commits con author `iska1234` (privados incluidos) → **6,343** / 12 meses.
 El calendario nativo de GitHub debajo del README usa otra regla y hoy marca **8** en [github.com/iska1234](https://github.com/iska1234) — no niega tu trabajo; solo no lo atribuye igual.
 
 <p align="center">
   <a href="https://iska1234.github.io/iska1234/contrib.html" title="Interactive commit heatmap">
-    <img src="assets/contrib-year.svg" width="900" alt="3,140 commits authored by iska1234 in the last year" />
+    <img src="assets/contrib-year.svg" width="900" alt="6,343 commits authored by iska1234 in the last year" />
   </a>
 </p>
 
@@ -135,4 +135,5 @@ El calendario nativo de GitHub debajo del README usa otra regla y hoy marca **8*
 <div align="center">
 <sub>Built with intent · cafe · shipping from Perú · <a href="https://ss-digital-labs.com/">@ss-digital-labs</a></sub>
 </div>
+
 

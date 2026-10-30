@@ -46,7 +46,7 @@ function commitsForRepo(fullName, sinceIso) {
       }
       if (chunk.length < 100) break;
       page += 1;
-      if (page > 5) break; // cap per repo
+      if (page > 50) break; // safety ~5000/repo
     }
   } catch {
     /* skip inaccessible */
@@ -185,3 +185,4 @@ fs.writeFileSync(
   JSON.stringify({ generatedAt: new Date().toISOString(), total, activeDays, scanned, counts }, null, 2)
 );
 console.log(JSON.stringify({ total, activeDays, scanned, weeks, width, height, out: OUT }));
+
