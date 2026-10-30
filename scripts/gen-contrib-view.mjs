@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
@@ -293,9 +293,9 @@ const html = `<!doctype html>
     </aside>
   </div>
   <p class="note">
-    Numbers = commits via API (author=iska1234), NOT GitHub’s contribution score. Official profile calendar currently
-    (below the README) only fills after you verify commit email + enable private contributions —
-    that one has native tooltips with no extra page.
+    These are <b>your</b> commits (author=iska1234, private included).
+    GitHub.com/iska1234 native calendar uses different attribution rules and may show a lower number —
+    that is settings/email matching, not missing work. Native hover tooltips live on the profile graph below the README.
   </p>
   <div id="tip" role="tooltip"></div>
   <script>
@@ -340,3 +340,4 @@ console.log(
     tipSample: tipText("2026-04-10", 92),
   })
 );
+
